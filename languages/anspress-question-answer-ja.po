@@ -1,0 +1,6059 @@
+# Copyright (C) 2015 Rahul Aryan
+# This file is distributed under the GPL-3.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: AnsPress 2.3.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/anspress-question-"
+"answer\n"
+"POT-Creation-Date: 2018-01-04 04:14:04+00:00\n"
+"PO-Revision-Date: 2018-12-14 15:39+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: addons/free/avatar.php:88
+msgid "Save add-on options"
+msgstr "オプションを保存"
+
+#: addons/free/avatar.php:91
+msgid "Clear Cache"
+msgstr "キャッシュの消去"
+
+#: addons/free/avatar.php:92
+msgid "Clear avatar cache"
+msgstr "回答アバターサイズ"
+
+#: addons/free/avatar.php:95
+msgid "Font family"
+msgstr "フォントファミリー"
+
+#: addons/free/avatar.php:96
+msgid "Select font family for avatar letters."
+msgstr "アバター文字のフォントファミリーを選択"
+
+#: addons/free/avatar.php:108
+msgid "Force avatar"
+msgstr "アバターをアップロード"
+
+#: addons/free/avatar.php:109
+msgid ""
+"Show AnsPress avatars by default instead of gravatar fallback. Useful in "
+"localhost development."
+msgstr ""
+"gravatarのフォールバックではなく、デフォルトでAnsPressのアバターを表示しま"
+"す。ローカルホスト開発に役立ちます"
+
+#: addons/free/buddypress.php:99
+msgid "Q&A"
+msgstr ""
+
+#: addons/free/buddypress.php:107 addons/free/buddypress.php:187
+#: addons/free/profile.php:39 addons/free/profile.php:151
+#: admin/views/dashboard.php:30 admin/views/dashboard.php:212
+#: includes/functions.php:2222 includes/options.php:102
+#: includes/post-types.php:83 includes/taxo.php:79 includes/taxo.php:372
+#: widgets/questions.php:43 widgets/questions.php:85
+msgid "Questions"
+msgstr "Questions"
+
+#: addons/free/buddypress.php:108 addons/free/buddypress.php:238
+#: addons/free/profile.php:40 addons/free/profile.php:158
+#: admin/views/dashboard.php:226 admin/views/recount.php:71
+#: includes/post-types.php:160 includes/theme.php:370
+#: widgets/question_stats.php:49 widgets/questions.php:117
+msgid "Answers"
+msgstr "回答"
+
+#: addons/free/buddypress.php:153
+msgid "No AnsPress template found for rendering this page."
+msgstr "このページを表示するためのAnsPressテンプレートは見つかりませんでした。"
+
+#: addons/free/buddypress.php:206
+msgid "Load more questions"
+msgstr "会話をロード中"
+
+#: addons/free/buddypress.php:257 templates/addons/user/answers.php:29
+msgid "Load more answers"
+msgstr "もっと見る"
+
+#: addons/free/buddypress.php:274 addons/free/buddypress.php:275
+#: admin/meta-box.php:41 includes/ajax-hooks.php:216 includes/comments.php:71
+#: includes/common-pages.php:21 includes/post-status.php:92
+#: includes/post-types.php:106
+msgid "Question"
+msgstr "質問"
+
+#: addons/free/buddypress.php:276
+msgid "%1$s asked a new <a href=\"AP_CPT_LINK\">question</a>"
+msgstr "%1$s asked a new <a href=\"AP_CPT_LINK\">question</a>"
+
+#: addons/free/buddypress.php:277
+msgid "%1$s asked a new <a href=\"AP_CPT_LINK\">question</a>, on the site %3$s"
+msgstr ""
+"%1$s が新しく <a href=\"AP_CPT_LINK\">question</a> を質問しました, %3$s"
+
+#: addons/free/buddypress.php:284 addons/free/buddypress.php:285
+#: addons/free/buddypress.php:296 admin/views/dashboard.php:34
+#: includes/ajax-hooks.php:216 includes/comments.php:71
+#: includes/post-status.php:92 includes/post-types.php:183
+#: templates/answers.php:20
+msgid "Answer"
+msgstr "回答"
+
+#: addons/free/buddypress.php:286
+msgid "%1$s <a href=\"AP_CPT_LINK\">answered</a> a question"
+msgstr "%1$s が質問に <a href=\"AP_CPT_LINK\">回答しました</a>"
+
+#: addons/free/buddypress.php:287
+msgid "%1$s <a href=\"AP_CPT_LINK\">answered</a> a question, on the site %3$s"
+msgstr "%1$s が回答しました <a href=\"AP_CPT_LINK\">answered</a> , %3$s"
+
+#: addons/free/buddypress.php:296
+msgid "Answer this question"
+msgstr "この質問に回答する"
+
+#: addons/free/buddypress.php:380
+msgid "%1$d answers on - %2$s"
+msgstr "%1$d 回答 - %2$s"
+
+#: addons/free/buddypress.php:384
+msgid "%1$s answered on - %2$s"
+msgstr "%1$s 回答した - %2$s"
+
+#: addons/free/buddypress.php:391 addons/free/notification/query.php:314
+#: includes/class-form-hooks.php:730 includes/post-types.php:105
+msgid "question"
+msgstr "質問"
+
+#: addons/free/buddypress.php:391 addons/free/notification/query.php:316
+#: includes/class-form-hooks.php:730 includes/post-types.php:182
+msgid "answer"
+msgstr "回答"
+
+#: addons/free/buddypress.php:396
+msgid "%1$d comments on your %3$s - %2$s"
+msgstr "%1$d が %3$s - %2$s にコメントしました"
+
+#: addons/free/buddypress.php:400
+msgid "%1$s commented on your %3$s - %2$s"
+msgstr "%1$s が %3$s - %2$s にコメントしました"
+
+#: addons/free/category/widget.php:27
+msgid "Display AnsPress categories"
+msgstr "カテゴリはコンマで分けます"
+
+#: addons/free/category/widget.php:68 includes/ajax-hooks.php:640
+#: templates/addons/category/categories.php:33
+#: templates/addons/category/single-category.php:43
+#: templates/addons/tag/tags.php:39
+msgid "%d Question"
+msgid_plural "%d Questions"
+msgstr[0] "%d 質問"
+
+#: addons/free/category/widget.php:70
+msgid "%d Child"
+msgstr "%d 子カテゴリー"
+
+#: addons/free/category/widget.php:81 addons/free/category.php:39
+#: addons/free/category.php:459 addons/free/category.php:471
+#: includes/functions.php:2240 includes/taxo.php:29
+msgid "Categories"
+msgstr "カテゴリ"
+
+#: addons/free/category/widget.php:99 widgets/ask-form.php:74
+#: widgets/question_stats.php:68 widgets/questions.php:108
+#: widgets/search.php:69
+msgid "Title:"
+msgstr "タイトル:"
+
+#: addons/free/category/widget.php:104
+msgid "Hide empty:"
+msgstr "空を隠す？"
+
+#: addons/free/category/widget.php:109
+msgid "Parent:"
+msgstr "親の回答:"
+
+#: addons/free/category/widget.php:111
+msgid "Top level"
+msgstr "トップレベル"
+
+#: addons/free/category/widget.php:122
+msgid "Number:"
+msgstr "ナンバー:"
+
+#: addons/free/category/widget.php:127
+msgid "Order By:"
+msgstr "状態選択:"
+
+#: addons/free/category/widget.php:129
+msgid "None"
+msgstr "なし"
+
+#: addons/free/category/widget.php:130 addons/free/category.php:231
+#: addons/free/category.php:244
+msgid "Count"
+msgstr "アカウント"
+
+#: addons/free/category/widget.php:131 addons/free/category.php:228
+#: addons/free/category.php:241
+msgid "ID"
+msgstr ""
+
+#: addons/free/category/widget.php:132 addons/free/category.php:229
+#: addons/free/category.php:242 addons/free/tag.php:572
+#: addons/free/tag.php:622 includes/deprecated.php:291
+#: includes/deprecated.php:434 includes/deprecated.php:875
+msgid "Name"
+msgstr "名前"
+
+#: addons/free/category/widget.php:133 addons/free/category.php:230
+#: addons/free/category.php:243
+msgid "Slug"
+msgstr "スラッグ"
+
+#: addons/free/category/widget.php:134
+msgid "Term group"
+msgstr ""
+
+#: addons/free/category/widget.php:138
+msgid "Order:"
+msgstr "注文:"
+
+#: addons/free/category/widget.php:140
+msgid "DESC"
+msgstr ""
+
+#: addons/free/category/widget.php:141
+msgid "ASC"
+msgstr ""
+
+#: addons/free/category/widget.php:145
+msgid "Icon width:"
+msgstr "カバー写真の幅"
+
+#: addons/free/category/widget.php:150
+msgid "Icon height:"
+msgstr "カバー写真の高さ"
+
+#: addons/free/category.php:38 addons/free/category.php:172
+#: addons/free/category.php:316 addons/free/category.php:384
+#: addons/free/category.php:512 admin/class-list-table-hooks.php:189
+#: includes/taxo.php:202
+msgid "Category"
+msgstr "カテゴリ"
+
+#: addons/free/category.php:171
+msgid "Question Categories"
+msgstr "質問の統計"
+
+#: addons/free/category.php:173
+msgid "All Categories"
+msgstr "AnsPress カテゴリページ"
+
+#: addons/free/category.php:174
+msgid "Add New Category"
+msgstr "新しいカテゴリーを追加"
+
+#: addons/free/category.php:175
+msgid "Edit Category"
+msgstr "カテゴリーを編集"
+
+#: addons/free/category.php:176
+msgid "New Category"
+msgstr "新しいカテゴリ"
+
+#: addons/free/category.php:177
+msgid "View Category"
+msgstr "カテゴリを見る"
+
+#: addons/free/category.php:178
+msgid "Search Category"
+msgstr "カテゴリーを検索"
+
+#: addons/free/category.php:179 addons/free/tag.php:189
+msgid "Nothing Found"
+msgstr "質問は見つかりませんでした"
+
+#: addons/free/category.php:180 addons/free/tag.php:190
+msgid "Nothing found in Trash"
+msgstr "ゴミ箱に質問は見つかりませんでした"
+
+#: addons/free/category.php:224
+msgid "Ask form category order"
+msgstr "フォームカテゴリーの順番設定"
+
+#: addons/free/category.php:225
+msgid "Set how you want to order categories in form."
+msgstr "フォームのカテゴリーの順番を設定します。"
+
+#: addons/free/category.php:232 addons/free/category.php:245
+msgid "Group"
+msgstr "グループ"
+
+#: addons/free/category.php:237
+msgid "Categries page order by"
+msgstr "カテゴリーページオーダー"
+
+#: addons/free/category.php:238 addons/free/category.php:251
+msgid "Set how you want to order categories in categories page."
+msgstr "カテゴリページでのカテゴリの注文方法を設定します。"
+
+#: addons/free/category.php:250
+msgid "Categries page order"
+msgstr "カテゴリー　ページ　オーダー"
+
+#: addons/free/category.php:254
+msgid "Ascending"
+msgstr "承認待ち"
+
+#: addons/free/category.php:255
+msgid "Descending"
+msgstr "承認待ち"
+
+#: addons/free/category.php:260
+msgid "Category page slug"
+msgstr "ユーザーページスラッグ"
+
+#: addons/free/category.php:261
+msgid "Slug for category page"
+msgstr "AnsPress カテゴリページ"
+
+#: addons/free/category.php:265
+msgid "Category per page"
+msgstr "AnsPress カテゴリページ"
+
+#: addons/free/category.php:266
+msgid "Category to show per page"
+msgstr "ページごとのアイテム数"
+
+#: addons/free/category.php:271
+msgid "Categories image height"
+msgstr "カテゴリー用画像の高さ"
+
+#: addons/free/category.php:272
+msgid "Image height in categories page"
+msgstr "カテゴリーページ用の画像の高さ"
+
+#: addons/free/category.php:316
+msgid "Questions Category"
+msgstr "質問の統計"
+
+#: addons/free/category.php:385
+msgid "Select a topic that best fits your question."
+msgstr "あなたの質問にあったカテゴリーを選択して下さい。"
+
+#: addons/free/category.php:436
+msgid "No matching category found"
+msgstr "回答は見つかりませんでした"
+
+#: addons/free/category.php:531 addons/free/category.php:574
+msgid "Image"
+msgstr "画像"
+
+#: addons/free/category.php:532 addons/free/category.php:577
+msgid "Upload image"
+msgstr "アップロード中"
+
+#: addons/free/category.php:536
+msgid "Category image"
+msgstr "AnsPress カテゴリページ"
+
+#: addons/free/category.php:540 addons/free/category.php:593
+msgid "Category icon class"
+msgstr "カテゴリ IDs:"
+
+#: addons/free/category.php:542 addons/free/category.php:597
+#: addons/free/category.php:606
+msgid "Font icon class, if image not set"
+msgstr "フォントアイコンクラス(画像が設定されていない場合)"
+
+#: addons/free/category.php:546
+msgid "Icon background color"
+msgstr "アイコンの背景色"
+
+#: addons/free/category.php:548
+msgid "Set background color to be used with icon"
+msgstr "アイコンで使用する背景色を設定する"
+
+#: addons/free/category.php:586
+msgid "Remove image"
+msgstr "画像を削除"
+
+#: addons/free/category.php:588
+msgid "Featured image for category"
+msgstr "AnsPress カテゴリページ"
+
+#: addons/free/category.php:602
+msgid "Category icon color"
+msgstr "カテゴリ IDs:"
+
+#: addons/free/category.php:793
+msgid "Question category feed"
+msgstr "質問フィード"
+
+#: addons/free/category.php:840 addons/free/tag.php:603
+msgid ", %d+"
+msgstr ""
+
+#: addons/free/email.php:130 addons/free/email.php:940
+msgid "An answer is trashed by {user}"
+msgstr "回答はゴミ箱です {user}"
+
+#: addons/free/email.php:131
+msgid ""
+"Hello!\n"
+"Answer on '{question_title}' is trashed by {user}.\n"
+msgstr ""
+"こんにちは!\n"
+"回答 '{question_title}' は次のユーザーに削除されました。 {user}.\n"
+
+#: addons/free/email.php:145
+msgid "Admin Notifications"
+msgstr "通知"
+
+#: addons/free/email.php:145
+msgid "Select types of notification which will be sent to admin."
+msgstr "管理者に送信される通知の種類を選択します。"
+
+#: addons/free/email.php:148
+msgid "Admin email(s)"
+msgstr "管理者のE-Mail"
+
+#: addons/free/email.php:149
+msgid ""
+"Email where all admin notification will be sent. It can have multiple emails "
+"separated by comma."
+msgstr ""
+"すべての管理者通知が送信される電子メール。 複数の電子メールをコンマで区切って"
+"指定できます。"
+
+#: addons/free/email.php:153 addons/free/email.php:198
+#: includes/post-types.php:88
+msgid "New question"
+msgstr "新しい質問"
+
+#: addons/free/email.php:154
+msgid "Send new question notification to admin."
+msgstr "新しい質問通知を管理者に送信します。"
+
+#: addons/free/email.php:159 addons/free/email.php:204
+#: includes/post-types.php:165
+msgid "New answer"
+msgstr "新しい回答"
+
+#: addons/free/email.php:160
+msgid "Send new answer notification to admin."
+msgstr "新しい回答通知を管理者に送信します。"
+
+#: addons/free/email.php:165 addons/free/email.php:210
+msgid "New comment"
+msgstr "%d コメント"
+
+#: addons/free/email.php:166
+msgid "Send new comment notification to admin."
+msgstr "管理者に新しいコメント通知を送信します。"
+
+#: addons/free/email.php:171 addons/free/email.php:216
+#: admin/class-list-table-hooks.php:347 includes/post-types.php:89
+msgid "Edit question"
+msgstr "質問を編集"
+
+#: addons/free/email.php:172
+msgid "Send notification to admin when question is edited."
+msgstr "管理者のみが質問に答えることができます。"
+
+#: addons/free/email.php:177 addons/free/email.php:222
+#: includes/post-types.php:166
+msgid "Edit answer"
+msgstr "回答を編集"
+
+#: addons/free/email.php:178
+msgid "Send email to admin when answer is edited."
+msgstr "新しく回答すつ質問を選んでください"
+
+#: addons/free/email.php:183
+msgid "Delete question"
+msgstr "質問を削除する"
+
+#: addons/free/email.php:184
+msgid "Send email to admin when question is trashed."
+msgstr "管理者のみが質問に答えることができます。"
+
+#: addons/free/email.php:189
+msgid "Delete answer"
+msgstr "回答を削除"
+
+#: addons/free/email.php:190
+msgid "Send email to admin when answer is trashed."
+msgstr "新しく回答すつ質問を選んでください"
+
+#: addons/free/email.php:195
+msgid "User Notifications"
+msgstr "ユーザー通知"
+
+#: addons/free/email.php:195
+msgid "Select the types of notification which will be sent to user."
+msgstr "ユーザーに送信する通知のタイプを選択します。"
+
+#: addons/free/email.php:199
+msgid "Send new question notification to user?"
+msgstr "新しい質問通知をユーザーに送信しますか？"
+
+#: addons/free/email.php:205
+msgid "Send new answer notification to user?"
+msgstr "全ての通知を見る"
+
+#: addons/free/email.php:211
+msgid "Send new comment notification to user?"
+msgstr "ユーザーに新しいコメント通知を送信しますか？"
+
+#: addons/free/email.php:217
+msgid "Send edit question notification to user?"
+msgstr "編集の質問通知をユーザーに送信しますか？"
+
+#: addons/free/email.php:223
+msgid "Send edit answer notification to user?"
+msgstr "ユーザーに編集応答通知を送信しますか？"
+
+#: addons/free/email.php:228
+msgid "Answer selected"
+msgstr "回答を選ぶ"
+
+#: addons/free/email.php:229
+msgid "Send notification to user when their answer get selected?"
+msgstr "管理者のみが質問に答えることができます。"
+
+#: addons/free/email.php:249
+msgid "Email subject"
+msgstr "メールの件名"
+
+#: addons/free/email.php:252
+msgid "Email body"
+msgstr "メール本文"
+
+#: addons/free/email.php:256
+msgid "Allowed tags"
+msgstr "許可されたタグ"
+
+#: addons/free/email.php:600
+msgid "Email Templates"
+msgstr "メールのテンプレート"
+
+#: addons/free/email.php:625 includes/class-form-hooks.php:298
+#: includes/class-form-hooks.php:485 includes/class-form-hooks.php:654
+msgid "Trying to cheat?!"
+msgstr "カンニングしようとしている！？"
+
+#: addons/free/email.php:650 includes/class-form-hooks.php:523
+msgid "Unable to post answer."
+msgstr "回答を投稿できません。"
+
+#. Translators: placeholder contain error message.
+#: addons/free/email.php:670
+msgid "Unable to save template. Error: %s"
+msgstr "テンプレートを保存できません。 エラー：%s"
+
+#: addons/free/email.php:691
+msgid "Post updated successfully"
+msgstr "投稿が正常に更新されました。"
+
+#: addons/free/email.php:775
+msgid "{asker} have posted a new question"
+msgstr "{asker}さんが新しい質問を投稿しました"
+
+#: addons/free/email.php:778
+msgid "A new question is posted by"
+msgstr "新しい質問を追加しました。追加ユーザー:"
+
+#: addons/free/email.php:799
+msgid "New answer posted by {answerer}"
+msgstr "{answerer}によって新しい回答が投稿されました"
+
+#: addons/free/email.php:802
+msgid "A new answer is posted by"
+msgstr "新しい回答が追加されました。回答ユーザー:"
+
+#: addons/free/email.php:823
+msgid "Your answer is selected as best!"
+msgstr "あなたの回答がベスト回答に選ばれました！"
+
+#: addons/free/email.php:826
+msgid "Your answer is selected as best by "
+msgstr "あなたの回答がベスト回答に選ばれました。ユーザー:"
+
+#: addons/free/email.php:847
+msgid "New comment by {commenter}"
+msgstr "{commenter} さんの新しいコメント"
+
+#: addons/free/email.php:850
+msgid "A new comment posted by"
+msgstr "投稿された新しいコメント"
+
+#: addons/free/email.php:871
+msgid "A question is edited by {editor}"
+msgstr "質問は{editor}さんによって編集されます"
+
+#: addons/free/email.php:874
+msgid "A question is edited by"
+msgstr "質問は以下によって編集されます。"
+
+#: addons/free/email.php:895
+msgid "A answer is edited by {editor}"
+msgstr "答えは{editor}さんによって編集されます"
+
+#: addons/free/email.php:898
+msgid "A answer is edited by"
+msgstr "答えはによって編集されます"
+
+#: addons/free/email.php:919
+msgid "A question is trashed by {user}"
+msgstr "質問は{user}によって削除されました"
+
+#: addons/free/email.php:922
+msgid "A question is trashed by"
+msgstr "質問は次のユーザーにより削除されました。"
+
+#: addons/free/email.php:943
+msgid "An answer is trashed by"
+msgstr "回答は次のユーザーによって削除されました。"
+
+#: addons/free/notification/query.php:261
+msgid "Someone"
+msgstr "だれか"
+
+#: addons/free/notification/query.php:307
+msgid "post"
+msgstr "投稿"
+
+#: addons/free/notification.php:43 addons/free/notification.php:49
+#: addons/free/notification.php:198 templates/functions.php:45
+msgid "Notifications"
+msgstr "通知"
+
+#: addons/free/notification.php:86
+msgid "Notifications page title"
+msgstr "通知ページのタイトル"
+
+#: addons/free/notification.php:87
+msgid "Custom title for user profile notifications page"
+msgstr "ユーザープロファイル通知ページのカスタムタイトル"
+
+#: addons/free/notification.php:91
+msgid "Notifications page slug"
+msgstr "通知ページ スラッグ"
+
+#: addons/free/notification.php:92
+msgid "Custom slug for user profile notifications page"
+msgstr "ユーザープロファイル通知ページ用のカスタムスラッグ"
+
+#: addons/free/notification.php:156
+msgid "posted an answer on your question"
+msgstr "あなたの質問に答えを掲載しました"
+
+#: addons/free/notification.php:161
+msgid "commented on your %cpt%"
+msgstr "%cpt%にコメントしました"
+
+#: addons/free/notification.php:166
+msgid "up voted your %cpt%"
+msgstr "あなたが投票した %cpt%"
+
+#: addons/free/notification.php:173
+msgid "down voted your %cpt%"
+msgstr "低評価に投票しました。%cpt%"
+
+#: addons/free/notification.php:178
+msgid "selected your answer"
+msgstr "あなたの選んだ回答"
+
+#: addons/free/notification.php:183
+msgid "You have earned %points% points"
+msgstr "あなたは %points% ポイントを獲得しました"
+
+#: addons/free/notification.php:188
+msgid "You lose %points% points"
+msgstr "あなたは %points% ポイントを失う"
+
+#: addons/free/notification.php:221
+msgid "You do not have permission to view this page"
+msgstr "このページを表示する権限がありません"
+
+#: addons/free/notification.php:439
+msgid "There was a problem processing your request"
+msgstr "リクエストの処理中に問題が発生しました"
+
+#: addons/free/notification.php:449
+msgid "Successfully updated all notifications"
+msgstr "すべての通知を正常に更新しました"
+
+#: addons/free/profile.php:44
+msgid "User profile"
+msgstr "ユーザープロフィール"
+
+#: addons/free/profile.php:64
+msgid "Questions page title"
+msgstr "質問ページのタイトル"
+
+#: addons/free/profile.php:65
+msgid "Custom title for user profile questions page"
+msgstr "ユーザープロファイルの質問ページのカスタムタイトル"
+
+#: addons/free/profile.php:69
+msgid "Questions page slug"
+msgstr "質問ページ スラッグ"
+
+#: addons/free/profile.php:70
+msgid "Custom slug for user profile questions page"
+msgstr "ユーザープロファイルの質問用のカスタムスラッグページ"
+
+#: addons/free/profile.php:74
+msgid "Answers page title"
+msgstr "回答ページタイトル"
+
+#: addons/free/profile.php:75
+msgid "Custom title for user profile answers page"
+msgstr "ユーザープロフィールの回答のカスタムタイトル"
+
+#: addons/free/profile.php:79
+msgid "Answers page slug"
+msgstr "回答ページ スラッグ"
+
+#: addons/free/profile.php:80
+msgid "Custom slug for user profile answers page"
+msgstr "ユーザープロファイルの回答のためのカスタムスラッグページ"
+
+#: addons/free/profile.php:282
+msgid "Callback function not found for rendering this page"
+msgstr "このページを表示するためのコールバック関数が見つかりません"
+
+#: addons/free/recaptcha/class-captcha.php:44
+msgid "AnsPress reCaptcha Field"
+msgstr "ReCaptchaフィールドのアンインストール"
+
+#: addons/free/recaptcha/class-captcha.php:80
+msgid "Failed to verify captcha. Please try again."
+msgstr "captchaの確認に失敗しました。 もう一度お試しください。"
+
+#: addons/free/recaptcha/class-captcha.php:94
+msgid ""
+"Unable to render captcha. Please add reCpatcha keys in AnsPress options."
+msgstr ""
+"Captchaをレンダリングできません。 reCaptchaキーをAnsPressオプションに追加して"
+"ください。"
+
+#: addons/free/recaptcha.php:64
+msgid "Recaptcha site key"
+msgstr "Recaptchaサイトキー"
+
+#: addons/free/recaptcha.php:65
+msgid ""
+"Enter your site key, if you dont have it get it from here https://www.google."
+"com/recaptcha/admin"
+msgstr ""
+"あなたのサイトのキーを入力してください。持っていけない場合、それはhttps://"
+"www.google.com/recaptcha/admin ここから取得できます。"
+
+#: addons/free/recaptcha.php:69
+msgid "Recaptcha secret key"
+msgstr "Recaptcha 秘密鍵"
+
+#: addons/free/recaptcha.php:70
+msgid "Enter your secret key"
+msgstr "あなたの秘密鍵を入力してください"
+
+#: addons/free/recaptcha.php:74
+msgid "Recaptcha Method"
+msgstr "Recaptchaメソッド"
+
+#: addons/free/recaptcha.php:75
+msgid "Select method to use when verification keeps failing"
+msgstr "検証が失敗した場合に使用するメソッドの選択"
+
+#: addons/free/recaptcha.php:99
+msgid "Prove that you are a human"
+msgstr "あなたが人間であることを証明する。(BOTではない事)"
+
+#: addons/free/reputation.php:37 addons/free/reputation.php:416
+#: addons/free/reputation.php:466 addons/free/reputation.php:501
+#: admin/views/recount.php:122
+msgid "Reputations"
+msgstr "評判"
+
+#: addons/free/reputation.php:81
+msgid "Reputations page title"
+msgstr "評判ページのタイトル"
+
+#: addons/free/reputation.php:82
+msgid "Custom title for user profile reputations page"
+msgstr "ユーザープロファイル評判ページのカスタムタイトル"
+
+#: addons/free/reputation.php:86
+msgid "Reputations page slug"
+msgstr "評判ページのスラッグ"
+
+#: addons/free/reputation.php:87
+msgid "Custom slug for user profile reputations page"
+msgstr "ユーザープロファイル評判のページのカスタムスラッグ"
+
+#: addons/free/reputation.php:91
+msgid "Reputation event points can be adjusted here :"
+msgstr "レピュテーションイベントポイントはここで調整できます："
+
+#: addons/free/reputation.php:91
+msgid "Reputation Points"
+msgstr "レピュテーションポイント"
+
+#: addons/free/reputation.php:105
+msgid "Registration"
+msgstr "新規登録"
+
+#: addons/free/reputation.php:106
+msgid "Points awarded when user account is created"
+msgstr "ユーザーアカウントの作成時にの初期ポイント"
+
+#: addons/free/reputation.php:108
+msgid "Registered"
+msgstr "登録済み"
+
+#: addons/free/reputation.php:114
+msgid "Asking"
+msgstr "質問する"
+
+#: addons/free/reputation.php:115
+msgid "Points awarded when user asks a question"
+msgstr "ユーザーが質問をしたときに得られるポイント"
+
+#: addons/free/reputation.php:117
+msgid "Asked a question"
+msgstr "質問されました"
+
+#: addons/free/reputation.php:123
+msgid "Answering"
+msgstr "回答"
+
+#: addons/free/reputation.php:124
+msgid "Points awarded when user answer a question"
+msgstr "ユーザーが質問に答えたときに与えられたポイント"
+
+#: addons/free/reputation.php:126
+msgid "Posted an answer"
+msgstr "投稿された回答"
+
+#: addons/free/reputation.php:132
+msgid "Commenting"
+msgstr "コメント"
+
+#: addons/free/reputation.php:133
+msgid "Points awarded when user comment on question or answer"
+msgstr "ユーザーが質問または回答にコメントしたときに得られたポイント"
+
+#: addons/free/reputation.php:135
+msgid "Commented on a post"
+msgstr "投稿にコメントしました"
+
+#: addons/free/reputation.php:141
+msgid "Selecting an Answer"
+msgstr "回答の選択"
+
+#: addons/free/reputation.php:142
+msgid "Points awarded when user select an answer for thier question"
+msgstr "ユーザーが質問に対する回答を選択したときに付与されるポイント"
+
+#: addons/free/reputation.php:144
+msgid "Selected an answer as best"
+msgstr "ベスト回答に選ぶ"
+
+#: addons/free/reputation.php:150
+msgid "Answer selected as best"
+msgstr "ベストとして選択された回答"
+
+#: addons/free/reputation.php:151
+msgid "Points awarded when user's answer selected as best"
+msgstr "ユーザの回答が最良のものとして選択された場合に付与されるポイント"
+
+#: addons/free/reputation.php:153
+msgid "Answer was selected as best"
+msgstr "ベスト回答に選ばれました"
+
+#: addons/free/reputation.php:159
+msgid "Received up vote"
+msgstr "投票を受け取りました"
+
+#: addons/free/reputation.php:160
+msgid "Points awarded when user receive an upvote"
+msgstr "ユーザーがアップフォートを受け取ったときに与えられたポイント"
+
+#: addons/free/reputation.php:162
+msgid "Received an upvote"
+msgstr "アップヴォートを受け取った"
+
+#: addons/free/reputation.php:167
+msgid "Received down vote"
+msgstr "低評価されました。"
+
+#: addons/free/reputation.php:168
+msgid "Points awarded when user receive a down vote"
+msgstr "ユーザーが投票を受け取ったときに獲得されたポイント"
+
+#: addons/free/reputation.php:170
+msgid "Received a down vote"
+msgstr "低評価を受け取りました。"
+
+#: addons/free/reputation.php:175
+msgid "Gives an up vote"
+msgstr "投票する"
+
+#: addons/free/reputation.php:176
+msgid "Points taken from user when they give a vote up"
+msgstr "ユーザーが投票をしたときのポイント"
+
+#: addons/free/reputation.php:178
+msgid "Given an up vote"
+msgstr "高評価を貰いました。"
+
+#: addons/free/reputation.php:183
+msgid "Gives down vote"
+msgstr "低評価"
+
+#: addons/free/reputation.php:184
+msgid "Points taken from user when user give a down vote"
+msgstr "ユーザがダウン投票をしたときのポイント"
+
+#: addons/free/reputation.php:186
+msgid "Given a down vote"
+msgstr "低評価されました"
+
+#: addons/free/reputation.php:213
+msgid "Successfully updated reputation points!"
+msgstr "評判のポイントを更新しました！"
+
+#: addons/free/reputation.php:381 addons/free/reputation.php:384
+msgid "Reputation"
+msgstr "ポイント"
+
+#: addons/free/reputation.php:407
+msgid "%s Reputation"
+msgstr "%s ポイント"
+
+#: addons/free/tag.php:34 addons/free/tag.php:525
+#: admin/class-list-table-hooks.php:193
+msgid "Tag"
+msgstr "タグ"
+
+#: addons/free/tag.php:35 addons/free/tag.php:221 addons/free/tag.php:287
+#: addons/free/tag.php:353 addons/free/tag.php:423 addons/free/tag.php:433
+#: includes/functions.php:2246
+msgid "Tags"
+msgstr "タグ"
+
+#: addons/free/tag.php:156
+msgid "(AnsPress) Tags"
+msgstr "AnsPress タグ"
+
+#: addons/free/tag.php:160
+msgid "Widgets in this area will be shown in anspress tags page."
+msgstr "この領域のウィジェットは、タグタグのページに表示されます。"
+
+#: addons/free/tag.php:181 addons/free/tag.php:221
+msgid "Question Tags"
+msgstr "質問 タグ"
+
+#: addons/free/tag.php:183
+msgid "All Tags"
+msgstr "すべてのタグ"
+
+#: addons/free/tag.php:185
+msgid "Edit Tag"
+msgstr "タグを編集"
+
+#: addons/free/tag.php:186
+msgid "New Tag"
+msgstr "新しいタグ"
+
+#: addons/free/tag.php:187
+msgid "View Tag"
+msgstr "タグを見る"
+
+#: addons/free/tag.php:188
+msgid "Search Tag"
+msgstr "タグを検索"
+
+#: addons/free/tag.php:233
+msgid "Tags to show"
+msgstr "表示するタグ"
+
+#: addons/free/tag.php:234
+msgid "Numbers of tags to show in tags page."
+msgstr "タグページに表示するタグの数。"
+
+#: addons/free/tag.php:239
+msgid "Maximum tags"
+msgstr "最大タグ数"
+
+#: addons/free/tag.php:240
+msgid "Maximum numbers of tags that user can add when asking."
+msgstr "ユーザーが質問時に追加できるタグの最大数"
+
+#: addons/free/tag.php:245
+msgid "Minimum tags"
+msgstr "タグの最小値"
+
+#: addons/free/tag.php:246
+msgid "minimum numbers of tags that user must add when asking."
+msgstr "ユーザーが質問するときにタグを追加する最少数"
+
+#: addons/free/tag.php:251
+msgid "Tag page slug"
+msgstr "タグページ スラッグ"
+
+#: addons/free/tag.php:252
+msgid "Slug for tag page"
+msgstr "タグページのスラッグ"
+
+#: addons/free/tag.php:309
+msgid "Delete Tag"
+msgstr "タグを削除"
+
+#: addons/free/tag.php:310
+msgid "Add Tag"
+msgstr "タグを追加"
+
+#: addons/free/tag.php:311
+msgid "added to the tags list."
+msgstr "タグリストに追加されました。"
+
+#: addons/free/tag.php:312
+msgid "removed from the tags list."
+msgstr "タグリストから削除されました。"
+
+#: addons/free/tag.php:313
+msgid "Suggestions are available. Use the up and down arrow keys to read it."
+msgstr "提案があります。 上下の矢印キーを使用して、それを読んでください。"
+
+#. Translators: %1$d contain minimum tags required and %2$d contain maximum
+#. tags allowed.
+#: addons/free/tag.php:356
+msgid ""
+"Tagging will helps others to easily find your question. Minimum %1$d and "
+"maximum %2$d tags."
+msgstr ""
+"タグを設定しておくと、他の人があなたの質問を簡単に見つけられます。最小 %1$d "
+"個～ 最大 %2$d 個までのタグが設定可能です。"
+
+#: addons/free/tag.php:533
+msgid "Order"
+msgstr "注文"
+
+#: addons/free/tag.php:570 addons/free/tag.php:620 includes/deprecated.php:873
+msgid "Popular"
+msgstr "人気"
+
+#: addons/free/tag.php:571 addons/free/tag.php:621 includes/deprecated.php:874
+#: includes/theme.php:363
+msgid "New"
+msgstr "新しい"
+
+#: admin/ajax.php:249
+msgid "Sorry, you do not have permission!"
+msgstr "申し訳ありませんが、あなたは許可を持っていません！"
+
+#: admin/ajax.php:266
+msgid "Successfully enabled addon. Redirecting!"
+msgstr "アドオンを有効にしました。 リダイレクト！"
+
+#: admin/anspress-admin.php:188
+msgid "All Questions"
+msgstr "すべての質問"
+
+#: admin/anspress-admin.php:190 admin/views/emails.php:39
+msgid "New Question"
+msgstr "新しい質問"
+
+#: admin/anspress-admin.php:192
+msgid "All Answers"
+msgstr "すべての回答"
+
+#: admin/anspress-admin.php:194 admin/views/emails.php:40
+msgid "New Answer"
+msgstr "新しい回答"
+
+#: admin/anspress-admin.php:203 admin/views/dashboard.php:352
+#: admin/views/options.php:131
+msgid "AnsPress Options"
+msgstr "AnsPress オプション"
+
+#: admin/anspress-admin.php:203
+msgid "Options"
+msgstr "オプション"
+
+#: admin/anspress-admin.php:205 admin/views/addons.php:51
+msgid "AnsPress Add-ons"
+msgstr "AnsPress オプション"
+
+#: admin/anspress-admin.php:205
+msgid "Add-ons"
+msgstr "アドオン"
+
+#: admin/anspress-admin.php:209 admin/views/sidebar.php:4
+msgid "About AnsPress"
+msgstr "AnsPressについて"
+
+#: admin/anspress-admin.php:314
+msgid "Settings"
+msgstr "設定"
+
+#: admin/anspress-admin.php:315
+msgid "About"
+msgstr "About"
+
+#: admin/anspress-admin.php:514
+msgid "Select All"
+msgstr "すべてを選択"
+
+#: admin/anspress-admin.php:518
+msgid "Add to Menu"
+msgstr "メニューに追加"
+
+#: admin/anspress-admin.php:645 admin/anspress-admin.php:654
+#: admin/anspress-admin.php:1070 admin/anspress-admin.php:1080
+#: admin/anspress-admin.php:1090 admin/anspress-admin.php:1100
+#: admin/anspress-admin.php:1110 includes/post-status.php:23
+msgid "Moderate"
+msgstr "モデレート"
+
+#: admin/anspress-admin.php:648 admin/anspress-admin.php:655
+msgid "Private Post"
+msgstr "プライベート投稿"
+
+#: admin/anspress-admin.php:674
+msgid "AnsPress database is not updated."
+msgstr "AnsPressデータベースは更新されません。"
+
+#: admin/anspress-admin.php:675
+msgid "Update now"
+msgstr "今すぐアップデート"
+
+#: admin/anspress-admin.php:680
+msgid "One or more AnsPress page(s) does not exists."
+msgstr "1つまたは複数のAnsPressページが存在しません。"
+
+#: admin/anspress-admin.php:681
+msgid "Set automatically"
+msgstr "自動的に設定"
+
+#: admin/anspress-admin.php:681
+msgid "Or"
+msgstr "または"
+
+#: admin/anspress-admin.php:681
+msgid "Set set by yourself"
+msgstr "自分でセット"
+
+#: admin/anspress-admin.php:789
+msgid "Save Pages"
+msgstr "ページを保存"
+
+#: admin/anspress-admin.php:792
+msgid "Hide author credits"
+msgstr "作成者のcreditを非表示"
+
+#: admin/anspress-admin.php:793
+msgid "Hide link to AnsPress project site."
+msgstr "AnsPressプロジェクトサイトへのリンクを隠す。"
+
+#: admin/anspress-admin.php:799
+msgid ""
+"If you have created main pages manually then make sure to have [anspress] "
+"shortcode in all pages."
+msgstr ""
+"メインページを手動で作成した場合は、すべてのページにショートコード "
+"[anspress] を貼り付けてください。"
+
+#: admin/anspress-admin.php:838
+msgid "Save Permalinks"
+msgstr "パーマリンクを保存"
+
+#: admin/anspress-admin.php:841
+msgid "Question slug"
+msgstr "質問　スラッグ"
+
+#: admin/anspress-admin.php:842
+msgid "Slug for single question page."
+msgstr "質問のシングルページのスラッグ"
+
+#: admin/anspress-admin.php:847
+msgid "Question permalink"
+msgstr "質問のパーマリンク"
+
+#: admin/anspress-admin.php:848
+msgid "Select single question permalink structure."
+msgstr "1つの質問パーマリンク構造を選択します。"
+
+#: admin/anspress-admin.php:863
+msgid "Base page title"
+msgstr "メインページタイトル"
+
+#: admin/anspress-admin.php:864
+msgid "Main questions list page title"
+msgstr "メインの質問一覧ページのタイトル"
+
+#: admin/anspress-admin.php:869
+msgid "Search page title"
+msgstr "ページタイトル検索"
+
+#: admin/anspress-admin.php:870
+msgid "Title of the search page"
+msgstr "ページタイトルで検索"
+
+#: admin/anspress-admin.php:875
+msgid "Author page title"
+msgstr "著者ページタイトル"
+
+#: admin/anspress-admin.php:876
+msgid "Title of the author page"
+msgstr "著者ページのタイトル"
+
+#: admin/anspress-admin.php:905
+msgid "Load assets in AnsPress page only?"
+msgstr "AnsPressページにのみassetsをロードしますか？"
+
+#: admin/anspress-admin.php:906
+msgid ""
+"Check this to load AnsPress JS and CSS on the AnsPress page only. Be "
+"careful, this might break layout."
+msgstr ""
+"AnsPressページにAnsPress JSとCSSを読み込むには、これをチェックします。 注意！"
+"レイアウトが崩れる可能性があります。"
+
+#: admin/anspress-admin.php:911
+msgid "List avatar size"
+msgstr "一覧のアバターサイズ"
+
+#: admin/anspress-admin.php:912
+msgid "User avatar size for questions list."
+msgstr "質問一覧のアバターサイズ"
+
+#: admin/anspress-admin.php:917
+msgid "Question avatar size"
+msgstr "質問アバターサイズ"
+
+#: admin/anspress-admin.php:918
+msgid "User avatar size for question."
+msgstr "質問時のアバターサイズ"
+
+#: admin/anspress-admin.php:923
+msgid "Answer avatar size"
+msgstr "回答アバターサイズ"
+
+#: admin/anspress-admin.php:924
+msgid "User avatar size for answer."
+msgstr "回答時のアバターサイズ"
+
+#: admin/anspress-admin.php:929
+msgid "Comment avatar size"
+msgstr "コメントアバターサイズ"
+
+#: admin/anspress-admin.php:930
+msgid "User avatar size for comments."
+msgstr "コメント時のアバターサイズ"
+
+#: admin/anspress-admin.php:935
+msgid "Questions per page"
+msgstr "ページごとの質問数"
+
+#: admin/anspress-admin.php:936
+msgid "Questions to show per page."
+msgstr "ページに表示する質問数"
+
+#: admin/anspress-admin.php:941
+msgid "Answers per page"
+msgstr "ページごとの質問"
+
+#: admin/anspress-admin.php:942
+msgid "Answers to show per page."
+msgstr "ページに表示する回答数"
+
+#: admin/anspress-admin.php:970
+msgid "Who can read question?"
+msgstr "誰が質問を読むことができますか？"
+
+#: admin/anspress-admin.php:971
+msgid "Set who can view or read a question."
+msgstr "誰が質問を閲覧したり読むことができるかを設定します。"
+
+#: admin/anspress-admin.php:975 admin/anspress-admin.php:986
+#: admin/anspress-admin.php:997 admin/anspress-admin.php:1025
+#: admin/anspress-admin.php:1036 admin/anspress-admin.php:1059
+msgid "Anyone, including anonymous"
+msgstr "誰でも、匿名を含む"
+
+#: admin/anspress-admin.php:976 admin/anspress-admin.php:987
+#: admin/anspress-admin.php:998 admin/anspress-admin.php:1026
+#: admin/anspress-admin.php:1037 admin/anspress-admin.php:1060
+msgid "Only logged in"
+msgstr "ログインのみ"
+
+#: admin/anspress-admin.php:977
+msgid "Only user having ap_read_question capability"
+msgstr "ap_read_question権限を持つユーザーのみ"
+
+#: admin/anspress-admin.php:981
+msgid "Who can read answers?"
+msgstr "誰が答えを読むことができますか？"
+
+#: admin/anspress-admin.php:982
+msgid "Set who can view or read a answer."
+msgstr "誰が回答を表示したり、読むことができるかを設定します。"
+
+#: admin/anspress-admin.php:988
+msgid "Only user having ap_read_answer capability"
+msgstr "ap_read_answer権限を持つユーザーのみ"
+
+#: admin/anspress-admin.php:992
+msgid "Who can read comment?"
+msgstr "誰がコメントを読むことができますか？"
+
+#: admin/anspress-admin.php:993
+msgid "Set who can view or read a comment."
+msgstr "誰がコメントを表示したり読むことができるかを設定します。"
+
+#: admin/anspress-admin.php:999
+msgid "Only user having ap_read_comment capability"
+msgstr "ap_read_comment権限を持つユーザーのみ"
+
+#: admin/anspress-admin.php:1020
+msgid "Who can post question?"
+msgstr "誰が質問を投稿できますか？"
+
+#: admin/anspress-admin.php:1021
+msgid "Set who can submit a question from frontend."
+msgstr "フロントエンドから質問を出すことができる人を設定します。"
+
+#: admin/anspress-admin.php:1027
+msgid "Only user having ap_new_question capability"
+msgstr "ap_new_question権限を持つユーザーのみ"
+
+#: admin/anspress-admin.php:1031
+msgid "Who can post answer?"
+msgstr "回答を投稿できるのは誰ですか？"
+
+#: admin/anspress-admin.php:1032
+msgid "Set who can submit an answer from frontend."
+msgstr "フロントエンドから回答を提出できる人を設定します。"
+
+#: admin/anspress-admin.php:1038
+msgid "Only user having ap_new_answer capability"
+msgstr "ap_new_answer権限を持つユーザーのみ"
+
+#: admin/anspress-admin.php:1042
+msgid "Multiple answers"
+msgstr "複数回答"
+
+#: admin/anspress-admin.php:1043
+msgid "Allow users to submit multiple answer per question."
+msgstr "ユーザーが質問ごとに複数の回答を提出できるようにする。"
+
+#: admin/anspress-admin.php:1048
+msgid "OP can answer?"
+msgstr "OPは答えることができますか？"
+
+#: admin/anspress-admin.php:1049
+msgid ""
+"OP: Original poster/asker. Enabling this option will prevent users to post "
+"an answer on their question."
+msgstr ""
+"OP：オリジナルのポスター/質問者。 このオプションを有効にすると、ユーザーは質"
+"問に答えを投稿できなくなります。"
+
+#: admin/anspress-admin.php:1054
+msgid "Who can post comment?"
+msgstr "誰がコメントを投稿できますか？"
+
+#: admin/anspress-admin.php:1055
+msgid "Set who can submit a comment from frontend."
+msgstr "フロントエンドからコメントを送信できるユーザーを設定します。"
+
+#: admin/anspress-admin.php:1061
+msgid "Only user having ap_new_comment capability"
+msgstr "ap_new_comment権限を持つユーザーのみ"
+
+#: admin/anspress-admin.php:1065
+msgid "Status of new question"
+msgstr "新しい質問の状況"
+
+#: admin/anspress-admin.php:1066
+msgid "Default status of new question."
+msgstr "新しい質問のデフォルトステータス。"
+
+#: admin/anspress-admin.php:1069 admin/anspress-admin.php:1079
+#: admin/anspress-admin.php:1089 admin/anspress-admin.php:1099
+#: admin/anspress-admin.php:1109
+msgid "Publish"
+msgstr "公開"
+
+#: admin/anspress-admin.php:1075
+msgid "Status of edited question"
+msgstr "質問の編集状況"
+
+#: admin/anspress-admin.php:1076
+msgid "Default status of edited question."
+msgstr "編集された質問のデフォルトステータス。"
+
+#: admin/anspress-admin.php:1085
+msgid "Status of new answer"
+msgstr "新しい回答の状態"
+
+#: admin/anspress-admin.php:1086
+msgid "Default status of new answer."
+msgstr "新しい回答のデフォルトステータス。"
+
+#: admin/anspress-admin.php:1095
+msgid "Status of edited answer"
+msgstr "回答の編集状況"
+
+#: admin/anspress-admin.php:1096
+msgid "Default status of edited answer."
+msgstr "編集された回答のデフォルトのステータス。"
+
+#: admin/anspress-admin.php:1105
+msgid "Status of anonymous post"
+msgstr "匿名投稿のステータス"
+
+#: admin/anspress-admin.php:1106
+msgid "Default status of question or answer submitted by anonymous user."
+msgstr "匿名ユーザーが送信した質問または回答のデフォルトのステータス。"
+
+#: admin/anspress-admin.php:1138
+msgid "Allow image upload"
+msgstr "画像のアップロードを許可"
+
+#: admin/anspress-admin.php:1139
+msgid "Allow logged-in users to upload image."
+msgstr "ログインしたユーザーが画像をアップロードできるようにします。"
+
+#: admin/anspress-admin.php:1144
+msgid "Max uploads per post"
+msgstr "投稿あたりの最大アップロード数"
+
+#: admin/anspress-admin.php:1145
+msgid "Set numbers of media user can upload for each post."
+msgstr ""
+"それぞれの投稿に対してアップロードできるメディアユーザーの数を設定します。"
+
+#: admin/anspress-admin.php:1149
+msgid "Max upload size"
+msgstr "最大アップロードサイズ"
+
+#: admin/anspress-admin.php:1150
+msgid "Set maximum upload size."
+msgstr "最大アップロードサイズを設定"
+
+#: admin/anspress-admin.php:1154
+msgid "Allow private posts"
+msgstr "個人的な投稿を許可"
+
+#: admin/anspress-admin.php:1155
+msgid ""
+"Allows users to create private question and answer. Private Q&A are only "
+"visible to admin and moderators."
+msgstr ""
+"ユーザーがプライベートな質問と回答を作成できるようにします。 プライベートQ＆A"
+"は管理者とモデレーターにのみ表示されます。"
+
+#: admin/anspress-admin.php:1160
+msgid "Multiple Answers"
+msgstr "複数回答"
+
+#: admin/anspress-admin.php:1161
+msgid "Allows users to post multiple answers on a question."
+msgstr "ユーザーが質問に複数の回答を投稿することを許可します。"
+
+#: admin/anspress-admin.php:1183
+msgid "Numbers of comments to show"
+msgstr "表示するコメントの数"
+
+#: admin/anspress-admin.php:1184
+msgid "Numbers of comments to load in each query?"
+msgstr "各クエリにロードするコメントの数？"
+
+#: admin/anspress-admin.php:1189
+msgid "Check duplicate"
+msgstr "重複をチェックする"
+
+#: admin/anspress-admin.php:1190
+msgid "Check for duplicate posts before posting"
+msgstr "投稿前に投稿が重複していないか確認してください"
+
+#: admin/anspress-admin.php:1195
+msgid "Disable question suggestion"
+msgstr "質問の提案を無効にする"
+
+#: admin/anspress-admin.php:1196
+msgid "Checking this will disable question suggestion in ask form"
+msgstr "これを確認すると、質問フォームの質問候補が無効になります"
+
+#: admin/anspress-admin.php:1201
+msgid "Show default date format"
+msgstr "デフォルトの日付形式を表示する"
+
+#: admin/anspress-admin.php:1202
+msgid ""
+"Instead of showing time passed i.e. 1 Hour ago, show default format date."
+msgstr ""
+"1時間前に経過時間を表示する代わりに、デフォルトの形式の日付を表示します。"
+
+#: admin/anspress-admin.php:1207
+msgid "Show solved prefix"
+msgstr "解決済みを表示"
+
+#: admin/anspress-admin.php:1208
+msgid ""
+"If an answer is selected for question then [solved] prefix will be added in "
+"title."
+msgstr "チェックを入れた場合、解決済のタイトルに [解決済] と表示されます"
+
+#: admin/anspress-admin.php:1214
+msgid "Default question order"
+msgstr "デフォルトの質問順序"
+
+#: admin/anspress-admin.php:1215
+msgid "Order question list by default using selected"
+msgstr "選択した質問リストをデフォルトで注文する"
+
+#: admin/anspress-admin.php:1218 admin/anspress-admin.php:1284
+#: includes/theme.php:411 widgets/questions.php:116
+msgid "Voted"
+msgstr "投票"
+
+#: admin/anspress-admin.php:1219 admin/anspress-admin.php:1285
+#: admin/views/addons.php:94 includes/theme.php:362 includes/theme.php:407
+#: widgets/question_stats.php:47 widgets/questions.php:114
+msgid "Active"
+msgstr "有効"
+
+#: admin/anspress-admin.php:1220 admin/anspress-admin.php:1286
+#: includes/theme.php:414 widgets/questions.php:115
+msgid "Newest"
+msgstr "最新"
+
+#: admin/anspress-admin.php:1221 admin/anspress-admin.php:1287
+#: includes/theme.php:415
+msgid "Oldest"
+msgstr "最古"
+
+#: admin/anspress-admin.php:1226
+msgid "Keep stop words in question slug"
+msgstr "問題のスラッグを止め続ける"
+
+#: admin/anspress-admin.php:1227
+msgid "AnsPress will not strip stop words in question slug."
+msgstr "AnsPressは問題のスラッグのストップワードを取り除きません。"
+
+#: admin/anspress-admin.php:1232
+msgid "Minimum title length"
+msgstr "タイトルの最小値"
+
+#: admin/anspress-admin.php:1233
+msgid "Set minimum letters for a question title."
+msgstr "質問タイトルの最低限の文字数を設定します。"
+
+#: admin/anspress-admin.php:1238 admin/anspress-admin.php:1292
+msgid "Minimum question content"
+msgstr "質問内容の最小値"
+
+#: admin/anspress-admin.php:1239
+msgid "Set minimum letters for a question contents."
+msgstr "質問内容の最低限の文字数を設定します。"
+
+#: admin/anspress-admin.php:1244
+msgid "Question editor?"
+msgstr "質問エディタ？"
+
+#: admin/anspress-admin.php:1245 admin/anspress-admin.php:1251
+msgid "Quick tags editor"
+msgstr "クイック タグ エディタ"
+
+#: admin/anspress-admin.php:1250
+msgid "Answer editor?"
+msgstr "回答エディタ？"
+
+#: admin/anspress-admin.php:1256 admin/anspress-admin.php:1298
+msgid "Disable comments"
+msgstr "コメントを無効にする"
+
+#: admin/anspress-admin.php:1257
+msgid "Disable comments on questions."
+msgstr "質問へのコメントを無効化"
+
+#: admin/anspress-admin.php:1262 admin/anspress-admin.php:1304
+msgid "Disable voting"
+msgstr "投票を無効にする"
+
+#: admin/anspress-admin.php:1263
+msgid "Disable voting on questions."
+msgstr "質問への投票を無効化"
+
+#: admin/anspress-admin.php:1268 admin/anspress-admin.php:1310
+msgid "Disable down voting"
+msgstr "下げ投票の無効"
+
+#: admin/anspress-admin.php:1269
+msgid "Disable down voting on questions."
+msgstr "質問への下げ投票を無効化"
+
+#: admin/anspress-admin.php:1274
+msgid "Close question after selecting answer"
+msgstr "回答を選択した後、質問を閉じる"
+
+#: admin/anspress-admin.php:1275
+msgid "If enabled this will prevent user to submit answer on solved question."
+msgstr "有効にすると、解決済み回答への新規を防ぎます"
+
+#: admin/anspress-admin.php:1280
+msgid "Default answers order"
+msgstr "デフォルトの回答順序"
+
+#: admin/anspress-admin.php:1281
+msgid "Order answers by by default using selected"
+msgstr "選択を使用してデフォルトで回答をオーダーする"
+
+#: admin/anspress-admin.php:1293
+msgid "Set minimum letters for a answer contents."
+msgstr "回答内容の最小の文字数を設定します。"
+
+#: admin/anspress-admin.php:1299
+msgid "Disable comments on answer."
+msgstr "回答へのコメントを無効にします"
+
+#: admin/anspress-admin.php:1305
+msgid "Disable voting on answers."
+msgstr "回答への投票を無効にします。"
+
+#: admin/anspress-admin.php:1311
+msgid "Disable down voting on answers."
+msgstr "回答への下げ投票を無効にします。"
+
+#: admin/anspress-admin.php:1341
+msgid "View page"
+msgstr "表示ページ"
+
+#: admin/anspress-admin.php:1342
+msgid "Edit page"
+msgstr "編集ページ"
+
+#: admin/class-list-table-hooks.php:57 admin/class-list-table-hooks.php:397
+msgid "Flagged"
+msgstr "フラグ付き"
+
+#: admin/class-list-table-hooks.php:131
+msgid "Restore this item from the Trash"
+msgstr "このアイテムをゴミ箱から復元する"
+
+#: admin/class-list-table-hooks.php:131
+msgid "Restore"
+msgstr "復元"
+
+#: admin/class-list-table-hooks.php:134
+msgid "Move this item to the Trash"
+msgstr "このアイテムをゴミ箱に放り込む"
+
+#: admin/class-list-table-hooks.php:134 admin/meta-box.php:70
+msgid "Trash"
+msgstr "ゴミ箱"
+
+#: admin/class-list-table-hooks.php:138
+msgid "Delete this item permanently"
+msgstr "このアイテムを完全に削除する"
+
+#: admin/class-list-table-hooks.php:138 includes/theme.php:301
+msgid "Delete Permanently"
+msgstr "完全に削除する"
+
+#: admin/class-list-table-hooks.php:143
+msgid "Edit &#8220;%s&#8221;"
+msgstr "編集 &#8220;%s&#8221;"
+
+#: admin/class-list-table-hooks.php:143 admin/meta-box.php:69
+#: includes/comments.php:317 includes/theme.php:258
+msgid "Edit"
+msgstr "編集"
+
+#: admin/class-list-table-hooks.php:149
+msgid "Preview &#8220;%s&#8221;"
+msgstr "プレビュー &#8220;%s&#8221;"
+
+#: admin/class-list-table-hooks.php:149
+msgid "Preview"
+msgstr "プレビュー"
+
+#: admin/class-list-table-hooks.php:152
+msgid "View &#8220;%s&#8221; question"
+msgstr "閲覧 &#8220;%s&#8221; question"
+
+#: admin/class-list-table-hooks.php:152
+msgid "View"
+msgstr "閲覧"
+
+#: admin/class-list-table-hooks.php:169 admin/meta-box.php:130
+msgid "Clear flag"
+msgstr "フラッグを消す"
+
+#: admin/class-list-table-hooks.php:185 admin/class-list-table-hooks.php:292
+msgid "Author"
+msgstr "作成者"
+
+#: admin/class-list-table-hooks.php:186 includes/class-form-hooks.php:43
+#: includes/deprecated.php:247
+msgid "Title"
+msgstr "タイトル"
+
+#: admin/class-list-table-hooks.php:196 admin/class-list-table-hooks.php:294
+#: includes/theme.php:270
+msgid "Status"
+msgstr "状況"
+
+#: admin/class-list-table-hooks.php:197 templates/question-list-item.php:37
+msgid "Ans"
+msgstr "回答"
+
+#: admin/class-list-table-hooks.php:198 admin/class-list-table-hooks.php:295
+msgid "Comments"
+msgstr "コメント"
+
+#: admin/class-list-table-hooks.php:199 admin/class-list-table-hooks.php:296
+#: admin/views/recount.php:54 includes/theme.php:367
+#: templates/content-answer.php:20 templates/question-list-item.php:30
+msgid "Votes"
+msgstr "投票"
+
+#: admin/class-list-table-hooks.php:200 admin/class-list-table-hooks.php:297
+msgid "Flags"
+msgstr "フラグ"
+
+#: admin/class-list-table-hooks.php:201 admin/class-list-table-hooks.php:298
+msgid "Date"
+msgstr "データ"
+
+#: admin/class-list-table-hooks.php:248 admin/class-list-table-hooks.php:264
+msgid "--"
+msgstr "--"
+
+#: admin/class-list-table-hooks.php:269 admin/class-list-table-hooks.php:343
+#: admin/views/select_question.php:43 includes/ajax-hooks.php:107
+#: includes/ajax-hooks.php:109 includes/ajax-hooks.php:301
+#: includes/functions.php:2039 templates/buddypress/question-item.php:38
+msgid "%d Answer"
+msgid_plural "%d Answers"
+msgstr[0] "%d 回答"
+
+#: admin/class-list-table-hooks.php:293
+msgid "Content"
+msgstr "コンテンツ"
+
+#: admin/class-list-table-hooks.php:332
+msgid "This question is orphan, no question is selected for this answer"
+msgstr "この質問は孤立しているので、この回答に質問は選択されていません"
+
+#: admin/class-list-table-hooks.php:367 admin/meta-box.php:129
+#: includes/flag.php:127
+msgid "Flag"
+msgstr "フラグ"
+
+#: admin/class-list-table-hooks.php:438
+msgid "Please fill parent question field, Answer was not saved!"
+msgstr "親質問欄にご記入ください、回答は保存されませんでした"
+
+#: admin/license.php:39 admin/views/licenses.php:20
+msgid "Licenses"
+msgstr "ライセンス"
+
+#: admin/meta-box.php:37
+msgid " %d Answers"
+msgstr "%d 回答"
+
+#: admin/meta-box.php:55 admin/meta-box.php:92
+msgid "Add an answer"
+msgstr "回答を追加"
+
+#: admin/meta-box.php:91
+msgid "<strong>%d</strong> Answer"
+msgid_plural "<strong>%d</strong> Answers"
+msgstr[0] "<strong>%d</strong> 回答"
+
+#: admin/meta-box.php:99
+msgid "<strong>%d</strong> Vote"
+msgid_plural "<strong>%d</strong> Votes"
+msgstr[0] "<strong>%d</strong> 高評価"
+
+#: admin/meta-box.php:102
+msgid "-"
+msgstr "-"
+
+#: admin/meta-box.php:106
+msgid "+"
+msgstr "+"
+
+#: admin/updater.php:85
+msgid "Theme License"
+msgstr "テーマのライセンス"
+
+#: admin/updater.php:86
+msgid "Enter your theme license key."
+msgstr "テーマライセンスキーを入力してください。"
+
+#: admin/updater.php:87
+msgid "License Key"
+msgstr "ライセンスキー"
+
+#: admin/updater.php:88
+msgid "License Action"
+msgstr "ライセンスアクション"
+
+#: admin/updater.php:89 admin/views/licenses.php:37
+msgid "Deactivate License"
+msgstr "ライセンスを無効にする"
+
+#: admin/updater.php:90 admin/views/licenses.php:39
+msgid "Activate License"
+msgstr "ライセンスを有効にする"
+
+#: admin/updater.php:91 admin/updater.php:103
+msgid "License status is unknown."
+msgstr "ライセンスの状態は不明です。"
+
+#: admin/updater.php:92
+msgid "Renew?"
+msgstr "更新？"
+
+#: admin/updater.php:93
+msgid "unlimited"
+msgstr "無制限"
+
+#: admin/updater.php:94
+msgid "License key is active."
+msgstr "ライセンスキーが有効です"
+
+#: admin/updater.php:95
+msgid "Expires %s."
+msgstr "%sが期限切れです。"
+
+#: admin/updater.php:96
+msgid "You have %1$s / %2$s sites activated."
+msgstr "あなたの %1$s / %2$s サイトが有効になっています。"
+
+#: admin/updater.php:97
+msgid "License key expired %s."
+msgstr "ライセンスキーの有効期限がきれました。%s"
+
+#: admin/updater.php:98
+msgid "License key has expired."
+msgstr "ライセンスキーの有効期限が切れています。"
+
+#: admin/updater.php:99
+msgid "License keys do not match."
+msgstr "ライセンスキーが一致しません。"
+
+#: admin/updater.php:100
+msgid "License is inactive."
+msgstr "ライセンスはアクティブではありません。"
+
+#: admin/updater.php:101
+msgid "License key is disabled."
+msgstr "ライセンスキーが無効になっています。"
+
+#: admin/updater.php:102
+msgid "Site is inactive."
+msgstr "サイトは非アクティブです。"
+
+#: admin/updater.php:104
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+"このテーマを更新すると、あなたが行ったカスタマイズは失われます。 キャンセルを"
+"クリックして中止するか、OKをクリックして更新します。"
+
+#: admin/updater.php:105
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</"
+"a>."
+msgstr ""
+"<strong>%1$s %2$s</strong> を利用できます。 <a href=\"%3$s\" class=\"thickbox"
+"\" title=\"%4s\">最新情報をチェックする</a> か <a href=\"%5$s\"%6$s>今すぐ更"
+"新</a>してください。"
+
+#: admin/updater.php:231
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"利用可能な新しいバージョン %1$s があります。 <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">バージョン %3$s の詳細を表示する</a>"
+
+#: admin/updater.php:238
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"利用可能な %1$s の新しいバージョンがあります。 <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">バージョン %3$s の詳細情報を表示する</a> か <a "
+"href=\"%4$s\">今すぐ更新</a>してください"
+
+#: admin/updater.php:374
+msgid "You do not have permission to install plugin updates"
+msgstr "プラグインアップデートをインストールする権限がありません"
+
+#: admin/updater.php:374
+msgid "Error"
+msgstr "エラー"
+
+#: admin/views/addons.php:64
+msgid "Addon options updated successfully!"
+msgstr "アドオンのオプションが正常に更新されました！"
+
+#: admin/views/addons.php:134
+msgid "Disable Addon"
+msgstr "アドオンを無効にする"
+
+#: admin/views/addons.php:134
+msgid "Enable Add-on"
+msgstr "アドオンを有効にする"
+
+#: admin/views/addons.php:150
+msgid "Please enable addon to view options."
+msgstr "オプションを表示するには、アドオンを有効にしてください。"
+
+#: admin/views/addons.php:172
+msgid "There is no option registered by this addon."
+msgstr "このアドオンによって登録されたオプションはありません。"
+
+#: admin/views/dashboard.php:26
+msgid "Require Attention"
+msgstr "Require Attention"
+
+#: admin/views/dashboard.php:28
+msgid "AnsPress Feed"
+msgstr "AnsPressフィード"
+
+#: admin/views/dashboard.php:32
+msgid "Latest Questions"
+msgstr "最新の質問"
+
+#: admin/views/dashboard.php:36
+msgid "Latest Answers"
+msgstr "最新の回答"
+
+#: admin/views/dashboard.php:86 admin/views/dashboard.php:275
+msgid "%d Published"
+msgstr "%d 公開済み"
+
+#: admin/views/dashboard.php:91 admin/views/dashboard.php:278
+msgid "%d Private"
+msgstr "%d プライベート"
+
+#: admin/views/dashboard.php:95 admin/views/dashboard.php:281
+msgid "%d Moderate"
+msgstr "%d モデレート"
+
+#: admin/views/dashboard.php:215
+msgid "%d Flagged questions"
+msgstr "%d フラグを付けられた質問"
+
+#: admin/views/dashboard.php:218
+msgid "%d questions awaiting moderation"
+msgstr "%d モデレート待ち投稿"
+
+#: admin/views/dashboard.php:222
+msgid "All looks fine"
+msgstr "すべて大丈夫に見える"
+
+#: admin/views/dashboard.php:231
+msgid "%d Flagged answers"
+msgstr "%d フラグつき回答"
+
+#: admin/views/dashboard.php:237
+msgid "%d answers awaiting moderation"
+msgstr "%d モデレーター待ち回答"
+
+#: admin/views/dashboard.php:299
+msgid "Apparently, there are no updates to show!"
+msgstr "どうやら、表示する更新はありません！"
+
+#: admin/views/dashboard.php:344
+msgid "Welcome to AnsPress!"
+msgstr "ようこそAnsPressへ"
+
+#: admin/views/dashboard.php:346
+msgid "We’ve assembled some links to get you started:"
+msgstr "私たちはあなたのためのいくつかのリンクを組み立てました:"
+
+#: admin/views/dashboard.php:350
+msgid "Get Started"
+msgstr "開始する"
+
+#: admin/views/dashboard.php:357
+msgid "Next Steps"
+msgstr "次のステップ"
+
+#: admin/views/dashboard.php:359
+msgid "Write your first question"
+msgstr "あなたの最初の質問を書いてください"
+
+#: admin/views/dashboard.php:360
+msgid "Post an answer"
+msgstr "回答を投稿する"
+
+#: admin/views/dashboard.php:361
+msgid "View questions"
+msgstr "質問を見る"
+
+#: admin/views/dashboard.php:365
+msgid "More actions"
+msgstr "その他のアクション"
+
+#: admin/views/dashboard.php:371
+msgid "Get %1$s or %2$s"
+msgstr "%s or %s を取得する"
+
+#: admin/views/dashboard.php:375
+msgid "Themes"
+msgstr "テーマ"
+
+#: admin/views/dashboard.php:380
+msgid "Extensions"
+msgstr "AnsPress 拡張機能"
+
+#: admin/views/dashboard.php:386
+msgid "Help and Support!"
+msgstr "ヘルプとサポート！"
+
+#: admin/views/dashboard.php:387
+msgid "Documents and FAQ"
+msgstr "ドキュメントとよくある質問"
+
+#: admin/views/emails.php:25
+msgid "More options"
+msgstr "その他オプション"
+
+#: admin/views/emails.php:28
+msgid "More email options can be found in addon options"
+msgstr "その他の電子メールオプションはアドオンオプションにあります"
+
+#: admin/views/emails.php:28
+msgid "More email options"
+msgstr "その他メール設定"
+
+#: admin/views/emails.php:33
+msgid "Select Template"
+msgstr "テンプレートを選択"
+
+#: admin/views/emails.php:41
+msgid "New Comment"
+msgstr "新しいコメント"
+
+#: admin/views/emails.php:42
+msgid "Edit Question"
+msgstr "質問を編集"
+
+#: admin/views/emails.php:43 includes/common-pages.php:24
+msgid "Edit Answer"
+msgstr "回答を編集"
+
+#: admin/views/emails.php:51
+msgid "The template selected here will appear below."
+msgstr "ここで選択したテンプレートが下に表示されます。"
+
+#: admin/views/emails.php:56
+msgid "Edit Template"
+msgstr "フラグ編集"
+
+#: admin/views/licenses.php:22
+msgid "License keys for AnsPress products, i.e. extensions and themes."
+msgstr "AnsPress製品（拡張機能やテーマ）のライセンスキー。"
+
+#: admin/views/licenses.php:32
+msgid "Enter license key for %s"
+msgstr "%s のライセンスキーを入力して下さい。"
+
+#: admin/views/licenses.php:36
+msgid "active"
+msgstr "有効"
+
+#: admin/views/licenses.php:48
+msgid "Save"
+msgstr "保存"
+
+#: admin/views/licenses.php:52
+msgid "No license yet."
+msgstr "まだライセンスはありません。"
+
+#: admin/views/options.php:19
+msgid "Trying to cheat, huh!"
+msgstr "カンニングをしよう！"
+
+#: admin/views/options.php:31
+msgid "General"
+msgstr "全般"
+
+#: admin/views/options.php:34
+msgid "Pages"
+msgstr "ページ"
+
+#: admin/views/options.php:37
+msgid "Permalinks"
+msgstr "パーマリンク"
+
+#: admin/views/options.php:40
+msgid "Layout"
+msgstr "レイアウト"
+
+#: admin/views/options.php:45
+msgid "Posts & Comments"
+msgstr "投稿とコメント"
+
+#: admin/views/options.php:48
+msgid "User Access Control"
+msgstr "ユーザーアクセス制御"
+
+#: admin/views/options.php:51
+msgid "Reading Permissions"
+msgstr "権限の読み取り"
+
+#: admin/views/options.php:54
+msgid "Posting Permissions"
+msgstr "投稿権限"
+
+#: admin/views/options.php:57
+msgid "Other Permissions"
+msgstr "その他の権限"
+
+#: admin/views/options.php:60
+msgid "Role Editor"
+msgstr "役割のエディタ"
+
+#: admin/views/options.php:66
+msgid "Tools"
+msgstr "ツール"
+
+#: admin/views/options.php:69
+msgid "Re-count"
+msgstr "再カウント"
+
+#: admin/views/options.php:73
+msgid "Uninstall"
+msgstr "アンインストール"
+
+#: admin/views/options.php:191
+msgid "AnsPress option updated successfully!"
+msgstr "AnsPressオプションが正常に更新されました！"
+
+#: admin/views/recount.php:58
+msgid "Re-count votes"
+msgstr "投票数の再計算"
+
+#: admin/views/recount.php:60
+msgid "Re-counting all AnsPress post votes..."
+msgstr "すべてのAnsPressポスト投票数を再計算..."
+
+#: admin/views/recount.php:61 admin/views/recount.php:95
+msgid "{0} out of {1} posts processed"
+msgstr "{1} この投票のうち {0} 件が処理されました"
+
+#: admin/views/recount.php:62
+msgid "Successfully counted all votes!"
+msgstr "すべての投票に成功しました！"
+
+#: admin/views/recount.php:63
+msgid "Failed to count all votes, please try again or submit a help request"
+msgstr ""
+"すべての票を数えることができませんでした。もう一度お試しください。またはヘル"
+"プリクエストを送信してください"
+
+#: admin/views/recount.php:66
+msgid "Re-count all votes of question and answers."
+msgstr "質問と回答のすべての投票数を再計算します。"
+
+#: admin/views/recount.php:75
+msgid "Re-count answers"
+msgstr "回答を再計算する"
+
+#: admin/views/recount.php:77
+msgid "Re-counting answers of every question..."
+msgstr "すべての質問の回答を再計算..."
+
+#: admin/views/recount.php:78 admin/views/recount.php:148
+msgid "{0} out of {1} question processed"
+msgstr "{1} 件のうち {0} 件が処理されました"
+
+#: admin/views/recount.php:79
+msgid "Successfully updated answers count!"
+msgstr "正常に更新された回答数！"
+
+#: admin/views/recount.php:80
+msgid "Failed to count answers, please try again or submit a help request"
+msgstr ""
+"回答の数をカウントできませんでした。もう一度お試しになるか、ヘルプリクエスト"
+"を送信してください"
+
+#: admin/views/recount.php:83
+msgid "Re-count answers of all questions."
+msgstr "すべての質問の回答を再計算します。"
+
+#: admin/views/recount.php:88
+msgid "Flagged posts"
+msgstr "フラグが設定された投稿"
+
+#: admin/views/recount.php:92
+msgid "Re-count flagged posts"
+msgstr "フラグが設定された投稿を再カウントする"
+
+#: admin/views/recount.php:94
+msgid "Re-counting flagged posts..."
+msgstr "フラグ付き投稿の再カウント..."
+
+#: admin/views/recount.php:96
+msgid "Successfully updated flagged posts count!"
+msgstr "正常に更新された投稿の数を更新しました！"
+
+#: admin/views/recount.php:97
+msgid ""
+"Failed to count flagged posts, please try again or submit a help request"
+msgstr ""
+"フラグが設定された投稿数をカウントできませんでした。もう一度お試しいただく"
+"か、ヘルプリクエストを送信してください"
+
+#: admin/views/recount.php:100
+msgid "Re-count flagged posts."
+msgstr "フラグが立てられた投稿を再カウントします。"
+
+#: admin/views/recount.php:105
+msgid "Subscribers"
+msgstr "購読者"
+
+#: admin/views/recount.php:109
+msgid "Re-count question subscribers"
+msgstr "質問者の再計算"
+
+#: admin/views/recount.php:111
+msgid "Re-counting question subscribers..."
+msgstr "質問者の再カウント..."
+
+#: admin/views/recount.php:112
+msgid "{0} out of {1} questions processed"
+msgstr "処理された{1} 個の質問のうちの {0} 件"
+
+#: admin/views/recount.php:113
+msgid "Successfully updated subscribers count!"
+msgstr "正常に更新された加入者数がカウントされます！"
+
+#: admin/views/recount.php:114
+msgid ""
+"Failed to count question subscribers, please try again or submit a help "
+"request"
+msgstr ""
+"質問者の数をカウントできませんでした。もう一度お試しになるか、ヘルプリクエス"
+"トを送信してください"
+
+#: admin/views/recount.php:117
+msgid "Re-count question subscribers."
+msgstr "質問者を再計算する。"
+
+#: admin/views/recount.php:126
+msgid "Re-count user reputation"
+msgstr "ユーザーの評判を再評価する"
+
+#: admin/views/recount.php:128
+msgid "Re-counting user reputation..."
+msgstr "ユーザーの評判を再計算..."
+
+#: admin/views/recount.php:129
+msgid "{0} out of {1} user processed"
+msgstr "{1} 人のうち {1} 人が処理されました"
+
+#: admin/views/recount.php:130
+msgid "Successfully updated users reputation!"
+msgstr "ユーザーの評判を更新しました！"
+
+#: admin/views/recount.php:131
+msgid ""
+"Failed to count users reputation, please try again or submit a help request"
+msgstr ""
+"ユーザーの評判をカウントできませんでした。もう一度お試しいただくか、ヘルプリ"
+"クエストを送信してください"
+
+#: admin/views/recount.php:134
+msgid "Re-count all users reputation points."
+msgstr "すべてのユーザーの評判ポイントを再カウントします。"
+
+#: admin/views/recount.php:140 includes/theme.php:371
+#: widgets/question_stats.php:48
+msgid "Views"
+msgstr "閲覧"
+
+#: admin/views/recount.php:144
+msgid "Re-count question views"
+msgstr "質問数を再計算する"
+
+#: admin/views/recount.php:147
+msgid "Re-counting post views..."
+msgstr "投稿数の再計算..."
+
+#: admin/views/recount.php:149
+msgid "Successfully updated question views!"
+msgstr "正常に更新された質問数！"
+
+#: admin/views/recount.php:150
+msgid "Failed to count views, please try again or submit a help request"
+msgstr ""
+"ビュー数のカウントに失敗しました。もう一度お試しになるか、ヘルプリクエストを"
+"送信してください"
+
+#: admin/views/recount.php:153
+msgid "Re-count all questions views."
+msgstr "すべての質問ビューを再カウントします。"
+
+#: admin/views/recount.php:157
+msgid "Add fake views if views table is empty"
+msgstr "ビューテーブルが空の場合、偽のビューを追加する"
+
+#: admin/views/recount.php:159
+msgid "Add fake views"
+msgstr "フェイクビュー数を追加する"
+
+#: admin/views/recount.php:164
+msgid "Minimum and maximum views"
+msgstr "最小ビューと最大ビュー"
+
+#: admin/views/recount.php:165
+msgid "Min. views"
+msgstr "最小閲覧数"
+
+#: admin/views/recount.php:166
+msgid "Max. views"
+msgstr "最大閲覧数"
+
+#: admin/views/reputation-events.php:34
+msgid "Save Events Points"
+msgstr "イベントポイントを保存する"
+
+#: admin/views/roles.php:37
+msgid "New role %s added successfully ."
+msgstr "新しいロール%sが正常に追加されました。"
+
+#: admin/views/roles.php:40
+msgid "Its look like %s role already exists ."
+msgstr "%s の役割のように見えます。"
+
+#: admin/views/roles.php:57
+msgid "Add new role"
+msgstr "新しい権限を追加する"
+
+#: admin/views/roles.php:60
+msgid "Add a new user role."
+msgstr "新しいユーザー権限を追加します。"
+
+#: admin/views/roles.php:63
+msgid "Role name"
+msgstr "権限名"
+
+#: admin/views/roles.php:64
+msgid "Role slug, without any space"
+msgstr "権限スラッグ、スペースなし"
+
+#: admin/views/roles.php:69 admin/views/roles.php:106
+msgid "Basic Capabilities"
+msgstr "基本機能"
+
+#: admin/views/roles.php:74 admin/views/roles.php:115
+msgid "Moderator Capabilities"
+msgstr "モデレーター機能"
+
+#: admin/views/roles.php:79
+msgid "Add role"
+msgstr "権限追加"
+
+#: admin/views/roles.php:86
+msgid "AnsPress capabilities"
+msgstr "AnsPress機能"
+
+#: admin/views/roles.php:87
+msgid "Add AnsPress capabilities to 3rd party roles."
+msgstr "サードパーティの役割にAnsPress機能を追加します。"
+
+#: admin/views/roles.php:92
+msgid "Select user role"
+msgstr "ユーザー権限を選択"
+
+#: admin/views/roles.php:127
+msgid "Save Role"
+msgstr "権限を保存"
+
+#: admin/views/select_question.php:20
+msgid "Select a question for new answer"
+msgstr "新しく回答すつ質問を選んでください"
+
+#: admin/views/select_question.php:21
+msgid ""
+"Slowly type for question suggestion and then click select button right to "
+"question title."
+msgstr ""
+"ゆっくりと質問の提案のために入力し、タイトルを疑問視する選択ボタンの右をク"
+"リックします。"
+
+#: admin/views/select_question.php:37
+msgid "Recently active questions"
+msgstr "最近活発な質問"
+
+#: admin/views/select_question.php:42 includes/ajax-hooks.php:107
+#: includes/ajax-hooks.php:164 includes/theme.php:704
+msgid "Select"
+msgstr "選択"
+
+#: admin/views/sidebar.php:5
+msgid "Support Q&A"
+msgstr "サポート Q&A"
+
+#: admin/views/sidebar.php:6
+msgid "AnsPress Themes"
+msgstr "AnsPress Themes"
+
+#: admin/views/sidebar.php:7
+msgid "Github Repo"
+msgstr "Github Repo"
+
+#: admin/views/uninstall.php:20
+msgid ""
+"If you are unsure about this section please do not use any of these options "
+"below."
+msgstr ""
+"このセクションについて不確かな場合は、以下のオプションを使用しないでくださ"
+"い。"
+
+#: admin/views/uninstall.php:27
+msgid "Permanently delete all questions and answers?"
+msgstr "すべての質問と回答を永久に削除しますか？"
+
+#: admin/views/uninstall.php:33
+msgid "Delete %d Q&A"
+msgstr "削除 %d Q＆A"
+
+#: admin/views/uninstall.php:34
+msgid ""
+"Clicking this button will delete all questions and answers data from database"
+msgstr ""
+"このボタンをクリックすると、すべての質問が削除され、データベースからデータが"
+"返されます"
+
+#: admin/views/uninstall.php:39
+msgid "Permanently delete all answers?"
+msgstr "すべての回答を永久に削除しますか？"
+
+#: admin/views/uninstall.php:45
+msgid "Delete %d answers"
+msgstr "%d件の回答を削除"
+
+#: admin/views/uninstall.php:46
+msgid ""
+"Clicking this button will delete all answers and its related data from "
+"database"
+msgstr ""
+"プロフィールプロフィール翻訳リアルタイム翻訳を無効にする英語日本語韓国語英語 "
+"- 自動検出日本語英語韓国語Clicking this button will delete all answers and "
+"its related data from database79/5000このボタンをクリックすると、すべてのアン"
+"サーとその関連データがデータベースから削除されます情報の修正を提案Kono botan "
+"o kurikkusuruto, subete no kait? to sono kanren d?ta ga d?tab?su kara sakujo "
+"sa remasu          ビジネス向け Google 翻訳:翻訳者ツールキットウェブサイト翻"
+"訳ツールGoogle 翻訳についてコミュニティモバイルGoogleについてプライバシーと利"
+"用規約ヘルプフィードバックを送信 "
+
+#: admin/views/uninstall.php:51
+msgid "Permanently delete all AnsPress user data?"
+msgstr "すべてのAnsPressユーザーデータを完全に削除しますか？"
+
+#: admin/views/uninstall.php:54
+msgid "Delete all user data"
+msgstr "すべてのユーザーデータを削除します"
+
+#: admin/views/uninstall.php:55
+msgid "Clicking this button will delete all user data added by AnsPress"
+msgstr ""
+"プロフィールプロフィール翻訳リアルタイム翻訳を無効にする英語日本語韓国語英語 "
+"- 自動検出日本語英語韓国語Clicking this button will delete all user data "
+"added by AnsPress64/5000このボタンをクリックすると、AnsPressによって追加され"
+"たすべてのユーザーデータが削除されます。情報の修正を提案Kono botan o "
+"kurikkusuruto, AnsPress ni yotte tsuika sa reta subete no y?z?d?ta ga sakujo "
+"sa remasu.          ビジネス向け Google 翻訳:翻訳者ツールキットウェブサイト翻"
+"訳ツールGoogle 翻訳についてコミュニティモバイルGoogleについてプライバシーと利"
+"用規約ヘルプフィードバックを送信 "
+
+#: admin/views/uninstall.php:60
+msgid "Permanently delete all AnsPress options?"
+msgstr "すべてのAnsPressオプションを完全に削除しますか？"
+
+#: admin/views/uninstall.php:63
+msgid "Delete all options"
+msgstr "すべてのオプションを削除"
+
+#: admin/views/uninstall.php:64
+msgid "Clicking this button will delete all AnsPress options"
+msgstr "このボタンをクリックすると、すべてのAnsPressオプションが削除されます"
+
+#: admin/views/uninstall.php:69
+msgid "Permanently delete all AnsPress terms?"
+msgstr "すべてのAnsPressの用語を永久に削除しますか？"
+
+#: admin/views/uninstall.php:72
+msgid "Delete all terms"
+msgstr "すべての用語を削除する"
+
+#: admin/views/uninstall.php:73
+msgid "Clicking this button will delete all AnsPress terms data"
+msgstr "このボタンをクリックすると、すべてのAnsPress用語データが削除されます"
+
+#: admin/views/uninstall.php:78
+msgid "Permanently delete all AnsPress tables?"
+msgstr "すべてのAnsPressテーブルを完全に削除しますか？"
+
+#: admin/views/uninstall.php:81
+msgid "Delete all database tables"
+msgstr "すべてのデータベーステーブルを削除する"
+
+#: admin/views/uninstall.php:82
+msgid "Clicking this button will remove all AnsPress DB tables"
+msgstr "このボタンをクリックすると、すべてのAnsPress DBテーブルが削除されます"
+
+#: admin/views/uninstall.php:114
+msgid "Do you wish to proceed? This cannot be undone."
+msgstr "続行しますか？ これは、元に戻すことはできません。"
+
+#: anspress-question-answer.php:46
+msgid "AnsPress is not running!"
+msgstr "AnsPressは実行されていません！"
+
+#: anspress-question-answer.php:47
+msgid ""
+"Irks! At least PHP version 5.5 is required to run AnsPress. Current PHP "
+"version is %s. Please ask hosting provider to update your PHP version."
+msgstr ""
+"AnsPressを実行するには少なくともPHPバージョン5.5が必要です。 現在のPHPのバー"
+"ジョンは%sです。 ホスティングプロバイダにPHPバージョンの更新を依頼してくださ"
+"い。"
+
+#: includes/activity.php:59
+msgid "Not AnsPress posts"
+msgstr "投稿はありません"
+
+#: includes/ajax-hooks.php:96
+msgid "%d similar question found"
+msgid_plural "%d similar questions found"
+msgstr[0] "%d類似の質問が見つかりました"
+
+#: includes/ajax-hooks.php:97
+msgid "We have found some similar questions that have been asked earlier."
+msgstr "私たちは以前に尋ねられた同様の質問をいくつか見つけました。"
+
+#: includes/ajax-hooks.php:116
+msgid "No related questions found."
+msgstr "関連した質問は見つかりませんでした。"
+
+#: includes/ajax-hooks.php:144
+msgid "You do not have permission to select or unselect answer"
+msgstr "あなたは回答を選択または選択解除する権限を持っていません"
+
+#: includes/ajax-hooks.php:163
+msgid "Best answer is unselected for your question."
+msgstr "ベスト回答からはずされました。"
+
+#: includes/ajax-hooks.php:172
+msgid ""
+"This answer cannot be selected as best, update status to select as best "
+"answer."
+msgstr ""
+"この回答をベストとして選択することはできません。状態を更新してベストアンサー"
+"として選択してください。"
+
+#: includes/ajax-hooks.php:194
+msgid "Best answer is selected for your question."
+msgstr "ベスト回答へ選ばれました。"
+
+#: includes/ajax-hooks.php:195 includes/theme.php:712
+msgid "Unselect"
+msgstr "解除"
+
+#: includes/ajax-hooks.php:207
+msgid "Unable to trash this post"
+msgstr "この投稿を削除できません"
+
+#: includes/ajax-hooks.php:228 includes/comments.php:325
+#: includes/theme.php:284 lib/form/class-group.php:81
+msgid "Delete"
+msgstr "削除"
+
+#: includes/ajax-hooks.php:228 includes/theme.php:285
+msgid "Delete this post (can be restored again)"
+msgstr "この投稿を削除する（もう一度復元できます）"
+
+#: includes/ajax-hooks.php:229
+msgid "%s is restored"
+msgstr "%s が復元されました"
+
+#: includes/ajax-hooks.php:244
+msgid "This post was created %s, hence you cannot trash it"
+msgstr "この投稿は%sで作成されたので、それをゴミ箱に入れることはできません"
+
+#: includes/ajax-hooks.php:252 includes/theme.php:281
+msgid "Undelete"
+msgstr "元に戻す"
+
+#: includes/ajax-hooks.php:252 includes/theme.php:282
+msgid "Restore this post"
+msgstr "この投稿を元に戻す"
+
+#: includes/ajax-hooks.php:253
+msgid "%s is trashed"
+msgstr "%s が削除されました"
+
+#: includes/ajax-hooks.php:268
+msgid "Sorry, unable to delete post"
+msgstr "申し訳ありません、投稿を削除できません"
+
+#: includes/ajax-hooks.php:296
+msgid "Question is deleted permanently"
+msgstr "質問は永久に削除されます"
+
+#: includes/ajax-hooks.php:305
+msgid "Answer is deleted permanently"
+msgstr "回答は永久に削除されます"
+
+#: includes/ajax-hooks.php:323
+msgid "Sorry, you cannot toggle a featured question"
+msgstr "申し訳ありませんが、注目の質問を切り替えることはできません"
+
+#: includes/ajax-hooks.php:333
+msgid "Only question can be set as featured"
+msgstr "特集として設定できる質問のみ"
+
+#: includes/ajax-hooks.php:342 includes/theme.php:788
+msgid "Mark this question as featured"
+msgstr "この質問に特集としてマークする"
+
+#: includes/ajax-hooks.php:342 includes/theme.php:789
+msgid "Feature"
+msgstr "特徴"
+
+#: includes/ajax-hooks.php:343
+msgid "Question is unmarked as featured."
+msgstr "特色としてマークされていない質問です。"
+
+#: includes/ajax-hooks.php:357 includes/theme.php:785
+msgid "Unmark this question as featured"
+msgstr "特集としてこの質問のマークを解除する"
+
+#: includes/ajax-hooks.php:357 includes/theme.php:786
+msgid "Unfeature"
+msgstr "機能不全"
+
+#: includes/ajax-hooks.php:358
+msgid "Question is marked as featured."
+msgstr "特色として質問がマークされています。"
+
+#: includes/ajax-hooks.php:401
+msgid "You cannot close a question"
+msgstr "あなたは質問を閉じることはできません"
+
+#: includes/ajax-hooks.php:407 includes/mce-languages.php:29
+#: includes/theme.php:242
+msgid "Close"
+msgstr "閉じる"
+
+#: includes/ajax-hooks.php:407 includes/theme.php:242
+msgid "Open"
+msgstr "開く"
+
+#: includes/ajax-hooks.php:408 includes/theme.php:243
+msgid "Close this question for new answer."
+msgstr "新しい質問のためにこの質問を閉じてください。"
+
+#: includes/ajax-hooks.php:408 includes/theme.php:243
+msgid "Open this question for new answers"
+msgstr "新しい質問にこの質問を開く"
+
+#: includes/ajax-hooks.php:410
+msgid "Question closed"
+msgstr "質問をクローズする"
+
+#: includes/ajax-hooks.php:410
+msgid "Question is opened"
+msgstr "質問を開設しました"
+
+#: includes/ajax-hooks.php:462
+msgid "Sorry, you are not allowed to convert this question to post"
+msgstr "申し訳ありませんが、あなたはこの質問を転記することはできません"
+
+#: includes/ajax-hooks.php:481
+msgid " Question \"%s\" is converted to post and its answers are trashed"
+msgstr "質問 \"%s\" は投稿に変換されて、回答はゴミ箱に移動されます。"
+
+#: includes/ajax-hooks.php:515
+msgid "You must be logged in to subscribe to a question"
+msgstr "質問に登録するにはログインしている必要があります"
+
+#: includes/ajax-hooks.php:524 includes/ajax-hooks.php:547
+msgid "Sorry, unable to subscribe"
+msgstr "申し訳ありませんが、購読できません"
+
+#: includes/ajax-hooks.php:535
+msgid "Successfully unsubscribed from question"
+msgstr "正常に質問から退会しました"
+
+#: includes/ajax-hooks.php:537 includes/theme.php:815
+msgid "Subscribe"
+msgstr "賛同"
+
+#: includes/ajax-hooks.php:553
+msgid "Successfully subscribed to question"
+msgstr "質問に登録しました"
+
+#: includes/ajax-hooks.php:555 includes/theme.php:815
+msgid "Unsubscribe"
+msgstr "退会する"
+
+#: includes/answer-loop.php:307
+msgid "You are viewing 1 out of %d answers, click here to view all answers."
+msgstr ""
+"%d 件の回答のうち1件を表示しています。ここをクリックしてすべての回答を表示し"
+"てください。"
+
+#: includes/api.php:15
+msgid "Wrong data supplied"
+msgstr "誤ったデータが供給されました"
+
+#: includes/class/class-activity-helper.php:166
+msgid "Asked question"
+msgstr "質問する"
+
+#: includes/class/class-activity-helper.php:171
+msgid "Edited question"
+msgstr "質問が編集されました"
+
+#: includes/class/class-activity-helper.php:176
+msgid "Answered question"
+msgstr "さんが、この質問に回答した"
+
+#: includes/class/class-activity-helper.php:181
+msgid "Edited answer"
+msgstr "回答が編集されました"
+
+#: includes/class/class-activity-helper.php:186
+msgid "Changed status to publish"
+msgstr "公開するステータスを変更しました"
+
+#: includes/class/class-activity-helper.php:191
+msgid "Changed publish date to future"
+msgstr "今後の公開日を変更"
+
+#: includes/class/class-activity-helper.php:196
+msgid "Changed status to moderate"
+msgstr "状態を中位に変更しました"
+
+#: includes/class/class-activity-helper.php:201
+msgid "Changed visibility to private"
+msgstr "プライベートへの可視性の変更"
+
+#: includes/class/class-activity-helper.php:206
+msgid "Trashed"
+msgstr "ゴミ箱"
+
+#: includes/class/class-activity-helper.php:211
+msgid "Marked as featured question"
+msgstr "おすすめの質問としてマーク"
+
+#: includes/class/class-activity-helper.php:216
+msgid "Marked as closed"
+msgstr "閉鎖としてマーク"
+
+#: includes/class/class-activity-helper.php:221
+msgid "Posted new comment"
+msgstr "新しいコメントを投稿"
+
+#: includes/class/class-activity-helper.php:226
+msgid "Edited comment"
+msgstr "編集されたコメント"
+
+#: includes/class/class-activity-helper.php:231
+msgid "Selected answer as best"
+msgstr "ベスト回答に選ばれた回答"
+
+#: includes/class/class-activity-helper.php:236
+msgid "Unselected an answer"
+msgstr "選択されていない回答"
+
+#: includes/class/class-activity-helper.php:324
+msgid "Question id is required."
+msgstr "質問IDは必須です。"
+
+#: includes/class/class-activity-helper.php:329
+msgid "Not a valid action"
+msgstr "有効な操作ではありません"
+
+#: includes/class/class-activity-helper.php:340
+msgid "Invalid date"
+msgstr "無効な日付"
+
+#: includes/class/class-activity-helper.php:360
+msgid "Failed to insert activity"
+msgstr "アクティビティの挿入に失敗しました"
+
+#: includes/class/class-activity-helper.php:426
+msgid "No columns found in where clue"
+msgstr "コラムが見つかりません"
+
+#: includes/class/class-activity-helper.php:432
+msgid "Failed to delete activity rows."
+msgstr "アクティビティー行の削除に失敗しました。"
+
+#: includes/class/class-activity.php:465
+msgid "Just now"
+msgstr "ちょうど今"
+
+#: includes/class/class-activity.php:467
+msgid "Today"
+msgstr "今日"
+
+#: includes/class/class-activity.php:469
+msgid "Yesterday"
+msgstr "昨日"
+
+#: includes/class/class-activity.php:526
+#: templates/addons/notification/index.php:46
+#: templates/addons/reputation/index.php:23
+msgid "Load More"
+msgstr "もっと読み込む"
+
+#: includes/class/roles-cap.php:64
+msgid "AnsPress Moderator"
+msgstr "AnsPress モデレータ"
+
+#: includes/class/roles-cap.php:68
+msgid "AnsPress Participants"
+msgstr "AnsPress 参加者"
+
+#: includes/class/roles-cap.php:69
+msgid "AnsPress Banned"
+msgstr "AnsPress禁止"
+
+#: includes/class/roles-cap.php:1314
+msgid "Voting on own post is not allowed"
+msgstr "自分の投稿に投票することはできません"
+
+#: includes/class/roles-cap.php:1322
+msgid "Voting on restricted posts are not allowed."
+msgstr "制限付き投稿に投票することはできません。"
+
+#: includes/class/roles-cap.php:1332
+msgid "You do not have permission to vote."
+msgstr "あなたは投票権がありません。"
+
+#: includes/class-form-hooks.php:39
+msgid "Submit Question"
+msgstr "質問を投稿"
+
+#: includes/class-form-hooks.php:44 includes/deprecated.php:249
+msgid "Question in one sentence"
+msgstr "質問文を入力"
+
+#: includes/class-form-hooks.php:47
+msgid "Question title"
+msgstr "質問のタイトル"
+
+#: includes/class-form-hooks.php:58 includes/class-form-hooks.php:144
+#: includes/deprecated.php:265
+msgid "Description"
+msgstr "説明"
+
+#: includes/class-form-hooks.php:72 includes/class-form-hooks.php:158
+msgid "Is private?"
+msgstr "プライベートですか？"
+
+#: includes/class-form-hooks.php:73 includes/class-form-hooks.php:159
+#: includes/deprecated.php:305 includes/deprecated.php:448
+msgid "Only visible to admin and moderator."
+msgstr "管理者とモデレータのみに表示されます"
+
+#: includes/class-form-hooks.php:80 includes/class-form-hooks.php:166
+#: includes/class-form-hooks.php:230
+msgid "Your Name"
+msgstr "あなたの名前"
+
+#: includes/class-form-hooks.php:82 includes/class-form-hooks.php:168
+#: includes/deprecated.php:293 includes/deprecated.php:436
+#: tests/wpunit/askFormTest.php:69
+msgid "Enter your name to display"
+msgstr "名前を入力してください"
+
+#: includes/class-form-hooks.php:103 includes/class-form-hooks.php:187
+#: includes/functions.php:1956
+msgid "Update Question"
+msgstr "質問を更新"
+
+#: includes/class-form-hooks.php:140
+msgid "Post Answer"
+msgstr "回答を投稿"
+
+#: includes/class-form-hooks.php:208
+msgid "Submit Comment"
+msgstr "コメントを投稿"
+
+#: includes/class-form-hooks.php:212 templates/answer.php:36
+#: templates/functions.php:41
+msgid "Comment"
+msgstr "コメント"
+
+#: includes/class-form-hooks.php:216
+msgid "Write your comment here.."
+msgstr "ここにあなたのコメントを書く.."
+
+#: includes/class-form-hooks.php:232
+msgid "Enter your name to display."
+msgstr "表示するあなたの名前を入力してください。"
+
+#: includes/class-form-hooks.php:239
+msgid "Your Email"
+msgstr "あなたのメールアドレス"
+
+#: includes/class-form-hooks.php:241
+msgid "Enter your email to get follow up notifications."
+msgstr "フォローアップ通知を受け取るためにメールを入力してください。"
+
+#: includes/class-form-hooks.php:249
+msgid "Your Website"
+msgstr "あなたのウェブサイト"
+
+#: includes/class-form-hooks.php:251
+msgid "Enter link to your website."
+msgstr "あなたのウェブサイトへのリンクを入力してください。"
+
+#: includes/class-form-hooks.php:334 includes/class-form-hooks.php:361
+msgid "Unable to post question."
+msgstr "質問を投稿できません。"
+
+#: includes/class-form-hooks.php:339 includes/class-form-hooks.php:366
+msgid "Failed to insert question"
+msgstr "質問の挿入に失敗しました"
+
+#: includes/class-form-hooks.php:356
+msgid ""
+"You are trying to post a duplicate question. Please search existing "
+"questions before posting a new one."
+msgstr ""
+"重複した質問を投稿しようとしています。 新しい質問を投稿する前に既存の質問を検"
+"索してください。"
+
+#. Translators: placeholder contain error message.
+#: includes/class-form-hooks.php:416
+msgid "Unable to post question. Error: %s"
+msgstr "質問を投稿できません。 エラー：%s"
+
+#: includes/class-form-hooks.php:436
+msgid "Question updated successfully, you'll be redirected in a moment."
+msgstr "質問は正常に更新されました。あなたはすぐにリダイレクトされます。"
+
+#: includes/class-form-hooks.php:438
+msgid "Your question is posted successfully, you'll be redirected in a moment."
+msgstr ""
+"あなたの質問は首尾よく投稿されます。あなたはすぐにリダイレクトされます。"
+
+#: includes/class-form-hooks.php:528
+msgid "Please check field"
+msgstr "フィールドを確認してください"
+
+#. Translators: placeholder contain error message.
+#: includes/class-form-hooks.php:583
+msgid "Unable to post answer. Error: %s"
+msgstr "回答を投稿できません。 エラー:%s"
+
+#: includes/class-form-hooks.php:609
+msgid "Answer updated successfully. Redirecting you to question page."
+msgstr "回答が正常に更新されました。 質問ページにリダイレクトします。"
+
+#: includes/class-form-hooks.php:611
+msgid "Your answer is posted successfully."
+msgstr "あなたの答えは正常に投稿されます。"
+
+#: includes/class-form-hooks.php:661
+msgid "Unable to post comment."
+msgstr "コメントを投稿できません。"
+
+#: includes/class-form-hooks.php:674
+msgid "You cannot edit this comment."
+msgstr "このコメントは編集できません。"
+
+#: includes/class-form-hooks.php:682
+msgid "There is no change in your comment."
+msgstr "あなたのコメントに変更はありません。"
+
+#. Translators: %d contains count of comments.
+#: includes/class-form-hooks.php:712 includes/class-form-hooks.php:798
+#: includes/comments.php:120 includes/comments.php:172
+#: includes/comments.php:288
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] "%d コメント"
+
+#: includes/class-form-hooks.php:713
+msgid "Comment updated successfully"
+msgstr "コメントは更新されました"
+
+#. Translators: %s contain post type name.
+#: includes/class-form-hooks.php:739
+msgid "Commenting is not allowed on draft, pending or deleted %s"
+msgstr "下書き、保留中または削除された%sのコメントは許可されていません"
+
+#: includes/class-form-hooks.php:804
+msgid "Comment successfully posted"
+msgstr "コメントは正常に投稿"
+
+#: includes/class-theme.php:169 includes/class-theme.php:228
+msgid "Question Feed"
+msgstr "質問フィード"
+
+#: includes/class-theme.php:229
+msgid "Answers Feed"
+msgstr "回答フィード"
+
+#: includes/class-theme.php:340
+msgid "Sorry, you do not have permission to read this post."
+msgstr "申し訳ありませんが、この投稿を読む権限がありません。"
+
+#: includes/comments.php:93
+msgid "Failed to delete comment"
+msgstr "コメントを削除できませんでした"
+
+#: includes/comments.php:103
+msgid "This comment was created %s. Its locked hence you cannot delete it."
+msgstr ""
+"このコメントは%sで作成されました。 ロックされているため、削除することはできま"
+"せん。"
+
+#: includes/comments.php:117
+msgid "Comment successfully deleted"
+msgstr "コメントは削除されました"
+
+#: includes/comments.php:155
+msgid "Sorry, unable to approve comment"
+msgstr "申し訳ありませんが、コメントを承認することができません"
+
+#: includes/comments.php:178
+msgid "Comment approved successfully."
+msgstr "コメントは正常に承認されました。"
+
+#: includes/comments.php:224
+msgid "Add comment on post"
+msgstr "投稿にコメントを追加"
+
+#: includes/comments.php:280
+msgid "Comments awaiting moderation"
+msgstr "モデレーター待ちコメント"
+
+#: includes/comments.php:297
+msgid "Add a Comment"
+msgstr "コメントを追加"
+
+#: includes/comments.php:337
+msgid "Approve"
+msgstr "承認する"
+
+#: includes/comments.php:393
+msgid "Not a valid post ID."
+msgstr "有効な投稿IDではありません。"
+
+#: includes/comments.php:398
+msgid "Sorry, you do not have permission to read comments."
+msgstr "申し訳ありませんが、コメントを読む権限がありません。"
+
+#: includes/comments.php:413 includes/comments.php:447
+msgid "No comments found."
+msgstr "コメントは見つかりませんでした。"
+
+#: includes/comments.php:458
+msgid "Show %s more comments"
+msgstr "%s個のコメントを表示"
+
+#: includes/comments.php:461
+msgid "Add a comment"
+msgstr "コメントを追加"
+
+#: includes/common-pages.php:22
+msgid "Ask a Question"
+msgstr "質問する"
+
+#: includes/common-pages.php:23 templates/addons/tag/tags.php:20
+#: templates/functions.php:47 templates/search-form.php:16
+msgid "Search"
+msgstr "検索"
+
+#: includes/common-pages.php:25 includes/functions.php:2252
+msgid "Activities"
+msgstr "有効"
+
+#: includes/common-pages.php:72
+msgid ""
+"This question is awaiting moderation and cannot be viewed. Please check back "
+"later."
+msgstr ""
+"この質問はモデレーターの処理を待っており、見ることはできません。 後で確認して"
+"ください。"
+
+#: includes/common-pages.php:74
+msgid "Sorry! you are not allowed to read this question."
+msgstr "ごめんなさい！ あなたはこの質問を読むことができません。"
+
+#. Translators: %s contain time to publish.
+#: includes/common-pages.php:81
+msgid "Question will be published in %s"
+msgstr "質問は%sで公開されます"
+
+#: includes/common-pages.php:85
+msgid ""
+"This question is not published yet and is not accessible to anyone until it "
+"get published."
+msgstr ""
+"この質問はまだ公表されておらず、公表されるまで誰でもアクセスできません。"
+
+#: includes/common-pages.php:142
+msgid "Something went wrong, please try again"
+msgstr "何かが間違っていました。もう一度やり直してください"
+
+#: includes/common-pages.php:164
+msgid "Sorry, you cannot edit this answer."
+msgstr "申し訳ありませんが、この回答を編集することはできません。"
+
+#: includes/deprecated.php:32
+msgid "Check missing fields and then re-submit."
+msgstr "不足しているフィールドを確認し、再送信してください。"
+
+#: includes/deprecated.php:65
+msgid "Insert images and attach media by %1$sselecting them%2$s"
+msgstr "画像を挿入し、%1$sでメディアを添付して%2$sを選択してください"
+
+#: includes/deprecated.php:123
+msgid "Uploaded"
+msgstr "アップロード済み"
+
+#: includes/deprecated.php:124
+msgid "Failed"
+msgstr "失敗"
+
+#: includes/deprecated.php:126
+msgid "Insert to post"
+msgstr "投稿への挿入"
+
+#: includes/deprecated.php:159
+msgid "Question title cannot be blank"
+msgstr "質問タイトルは空白にすることはできません"
+
+#: includes/deprecated.php:417
+msgid "Your answer.."
+msgstr "あなたの回答"
+
+#: includes/deprecated.php:713
+msgid "Save options"
+msgstr "オプションを保存"
+
+#: includes/flag.php:34
+msgid "You have already reported this post."
+msgstr "あなたは既にこの投稿を報告しています。"
+
+#: includes/flag.php:44
+msgid "Thank you for reporting this post."
+msgstr "投稿の報告ありがとうございました。"
+
+#: includes/flag.php:121
+msgid "Flag this post"
+msgstr "この投稿にフラグを立てる"
+
+#: includes/flag.php:121
+msgid "You have flagged this post"
+msgstr "あなたはこの投稿にフラグを立てています"
+
+#. translators: %s: human-readable time difference
+#: includes/functions.php:249
+msgid "%s ago"
+msgstr "%s 前"
+
+#: includes/functions.php:503
+msgid "Success"
+msgstr "成功"
+
+#: includes/functions.php:505
+msgid "Something went wrong, last action failed."
+msgstr "エラーです。操作は失敗しました、"
+
+#: includes/functions.php:507
+msgid "Comment updated successfully."
+msgstr "コメントが更新されました。"
+
+#: includes/functions.php:508
+msgid "You cannot vote on your own question or answer."
+msgstr "自分の質問回答には投票できません。"
+
+#: includes/functions.php:509
+msgid "You do not have permission to view private posts."
+msgstr "非公開の投稿を表示する権限がありません。"
+
+#: includes/functions.php:510
+msgid "Please check captcha field and resubmit it again."
+msgstr "キャプチャ欄を確認して再送信してください。"
+
+#: includes/functions.php:511
+msgid "Image uploaded successfully"
+msgstr "画像がアップロードされました。"
+
+#: includes/functions.php:512
+msgid "Answer has been deleted permanently"
+msgstr "回答は完全に削除されました。"
+
+#: includes/functions.php:513
+msgid "You have already attached maximum numbers of allowed uploads."
+msgstr "あなたは既に許可されたアップロードの最大数を添付しています。"
+
+#: includes/functions.php:514
+msgid "Your profile has been updated successfully."
+msgstr "プロフィールが更新されました。"
+
+#: includes/functions.php:515
+msgid "Voting down is disabled."
+msgstr "下げ投票は無効です。"
+
+#: includes/functions.php:516
+msgid "You cannot vote on restricted posts"
+msgstr "制限付き投稿に投票することはできません"
+
+#: includes/functions.php:944
+msgid "[Solved] "
+msgstr "[解決済] "
+
+#: includes/functions.php:1287
+msgid "asked"
+msgstr "質問済"
+
+#: includes/functions.php:1288 includes/functions.php:1289
+msgid "approved"
+msgstr "承認されました"
+
+#: includes/functions.php:1290
+msgid "answered"
+msgstr "回答済"
+
+#: includes/functions.php:1291
+msgid "deleted answer"
+msgstr "削除された回答"
+
+#: includes/functions.php:1292
+msgid "restored question"
+msgstr "復元された質問"
+
+#: includes/functions.php:1293
+msgid "restored answer"
+msgstr "修復された答え"
+
+#: includes/functions.php:1294 templates/comment.php:27
+#: templates/functions.php:40
+msgid "commented"
+msgstr "コメント済"
+
+#: includes/functions.php:1295
+msgid "deleted comment"
+msgstr "コメントの削除"
+
+#: includes/functions.php:1296
+msgid "commented on answer"
+msgstr "回答へコメントされました"
+
+#: includes/functions.php:1297
+msgid "edited question"
+msgstr "質問が編集されました"
+
+#: includes/functions.php:1298
+msgid "edited answer"
+msgstr "回答が編集されました"
+
+#: includes/functions.php:1299
+msgid "edited comment"
+msgstr "コメントが編集されました"
+
+#: includes/functions.php:1300
+msgid "edited comment on answer"
+msgstr "回答を編集したコメント"
+
+#: includes/functions.php:1301
+msgid "selected answer"
+msgstr "回答が選択されました"
+
+#: includes/functions.php:1302
+msgid "unselected answer"
+msgstr "回答が解除されました"
+
+#: includes/functions.php:1303
+msgid "updated status"
+msgstr "アップデート状況"
+
+#: includes/functions.php:1304
+msgid "selected as best answer"
+msgstr "ベスト回答に選ばれました"
+
+#: includes/functions.php:1305
+msgid "unselected as best answer"
+msgstr "ベスト回答として選択されていません"
+
+#: includes/functions.php:1306
+msgid "changed status"
+msgstr "変更されたステータス"
+
+#: includes/functions.php:1370
+msgid "Anonymous"
+msgstr "匿名"
+
+#: includes/functions.php:1402
+msgid " (anonymous)"
+msgstr " (匿名)"
+
+#: includes/functions.php:1929
+msgid "You cannot edit this question."
+msgstr "この質問は編集できません。"
+
+#: includes/functions.php:1934 templates/ask.php:17
+msgid "You do not have permission to ask a question."
+msgstr "あなたは質問をする許可がありません。"
+
+#: includes/functions.php:2048
+msgid "Answer submitted successfully"
+msgstr "回答が送信されました。"
+
+#: includes/functions.php:2076
+msgid "You cannot edit this answer."
+msgstr "この回答は編集できません。"
+
+#: includes/functions.php:2081
+msgid "You do not have permission to answer this question."
+msgstr "この質問に回答する権限がありません。"
+
+#: includes/functions.php:2107
+msgid "Update Answer"
+msgstr "回答を更新"
+
+#: includes/functions.php:2220
+msgid "Archives page"
+msgstr "アーカイブページ"
+
+#: includes/functions.php:2221
+msgid ""
+"Page used to display question archive (list). Sometimes this page is used "
+"for displaying other subpages of AnsPress.<br/>This page is also referred as "
+"<b>Base Page</b> in AnsPress documentations and support forum."
+msgstr ""
+"質問アーカイブ（リスト）を表示するために使用されるページ。 このページは、"
+"AnsPressの他のサブページを表示するために使用されることがあります。<br/>この"
+"ページは、AnsPressのドキュメントおよびサポートフォーラムで<b>ベースページ</ "
+"b>とも呼ばれます。"
+
+#: includes/functions.php:2226
+msgid "Ask page"
+msgstr "質問ページ"
+
+#: includes/functions.php:2227
+msgid "Page used to display ask form."
+msgstr "質問フォームを表示するためのページ。"
+
+#: includes/functions.php:2228
+msgid "Ask a question"
+msgstr "質問する"
+
+#: includes/functions.php:2232
+msgid "User page"
+msgstr "ユーザーページ"
+
+#: includes/functions.php:2233
+msgid "Page used to display user profile."
+msgstr "ユーザープロファイルを表示するためのページ。"
+
+#: includes/functions.php:2234
+msgid "Profile"
+msgstr "プロフィール"
+
+#: includes/functions.php:2238
+msgid "Categories page"
+msgstr "カテゴリページ"
+
+#: includes/functions.php:2239
+msgid ""
+"Page used to display question categories. NOTE: Categories addon must be "
+"enabled to render this page."
+msgstr ""
+"質問カテゴリを表示するために使用されるページ。 注：このページを表示するには、"
+"アドオンを有効にする必要があります。"
+
+#: includes/functions.php:2244
+msgid "Tags page"
+msgstr "タグページ"
+
+#: includes/functions.php:2245
+msgid ""
+"Page used to display question tags. NOTE: Tags addon must be enabled to "
+"render this page."
+msgstr ""
+"質問タグの表示に使用するページ。 注：このページを表示するには、タグアドオンを"
+"有効にする必要があります。"
+
+#: includes/functions.php:2250
+msgid "Activities page"
+msgstr "活動ページ"
+
+#: includes/functions.php:2251
+msgid "Page used to display all anspress activities."
+msgstr "すべてのアクティビティを表示するために使用されるページ。"
+
+#: includes/hooks.php:880
+msgid "minute"
+msgstr "分"
+
+#: includes/hooks.php:881
+msgid "minutes"
+msgstr "分"
+
+#: includes/hooks.php:882
+msgid "hour"
+msgstr "時間"
+
+#: includes/hooks.php:883
+msgid "hours"
+msgstr "時間"
+
+#: includes/hooks.php:884
+msgid "day"
+msgstr "日"
+
+#: includes/hooks.php:885
+msgid "days"
+msgstr "日"
+
+#: includes/hooks.php:886
+msgid "week"
+msgstr "週間"
+
+#: includes/hooks.php:887
+msgid "weeks"
+msgstr "週間"
+
+#: includes/hooks.php:888
+msgid "year"
+msgstr "年"
+
+#: includes/hooks.php:889
+msgid "years"
+msgstr "年"
+
+#: includes/mce-languages.php:27
+msgid "Insert image"
+msgstr "画像を挿入する"
+
+#: includes/mce-languages.php:28
+msgid "Insert Media (AnsPress)"
+msgstr "メディアの挿入（AnsPress）"
+
+#: includes/mce-languages.php:30
+msgid "Select File"
+msgstr "ファイルを選ぶ"
+
+#: includes/mce-languages.php:31
+msgid "Browse from computer"
+msgstr "コンピュータからブラウズ"
+
+#: includes/mce-languages.php:32
+msgid "Image title"
+msgstr "画像のタイトル"
+
+#: includes/mce-languages.php:33
+msgid "Media preview"
+msgstr "メディアプレビュー"
+
+#: includes/mce-languages.php:34
+msgid "Insert code"
+msgstr "コードを挿入する"
+
+#: includes/mce-languages.php:35
+msgid "Insert codes (AnsPress)"
+msgstr "コードを挿入する（AnsPress）"
+
+#: includes/mce-languages.php:36
+msgid "Insert"
+msgstr "挿入"
+
+#: includes/mce-languages.php:37
+msgid "Inline?"
+msgstr "並べる？"
+
+#: includes/mce-languages.php:38
+msgid "Insert your code."
+msgstr "コードを挿入します。"
+
+#: includes/options.php:103
+msgid "Search \"%s\""
+msgstr "\"%s\" を検索する"
+
+#: includes/options.php:104
+msgid "%s"
+msgstr "%s"
+
+#: includes/post-status.php:27
+msgid "Moderate <span class=\"count\">(%s)</span>"
+msgid_plural "Moderate <span class=\"count\">(%s)</span>"
+msgstr[0] "モデレート <span class=\"count\">(%s)</span>"
+
+#: includes/post-status.php:31
+msgid "Private"
+msgstr "プライベート"
+
+#: includes/post-status.php:35
+msgid "Private Post <span class=\"count\">(%s)</span>"
+msgid_plural "Private Post <span class=\"count\">(%s)</span>"
+msgstr[0] "プライベート投稿 <span class=\"count\">(%s)</span>"
+
+#: includes/post-status.php:52
+msgid "You are not allowed to change post status"
+msgstr "投稿ステータスを変更することはできません"
+
+#: includes/post-status.php:75
+msgid "Post status updated successfully"
+msgstr "投稿状況が更新されました。"
+
+#: includes/post-status.php:97
+msgid "This %s is marked as a private, only admin and post author can see."
+msgstr ""
+"この%sは非公開としてマークされ、管理者と投稿者のみが見ることができます。"
+
+#: includes/post-status.php:99
+msgid "This %s is waiting for the approval by the moderator."
+msgstr "この%sはモデレーターの承認を待っています。"
+
+#: includes/post-status.php:101
+msgid "Question is closed for new answers."
+msgstr "質問は新しい回答のために閉じられる。"
+
+#: includes/post-status.php:103
+msgid "This %s has been trashed, you can delete it permanently from wp-admin."
+msgstr "この%sは削除されました。あなたはwp-adminから永久に削除できます。"
+
+#: includes/post-status.php:105
+msgid ""
+"This %s is not published yet and is not accessible to anyone until it get "
+"published."
+msgstr "この%sはまだ公開されておらず、誰かが公開するまでアクセスできません。"
+
+#: includes/post-types.php:84
+msgid "Parent question:"
+msgstr "親の質問:"
+
+#: includes/post-types.php:85
+msgid "All questions"
+msgstr "すべての質問"
+
+#: includes/post-types.php:86
+msgid "View question"
+msgstr "質問を表示"
+
+#: includes/post-types.php:87
+msgid "Add new question"
+msgstr "新しい質問を追加"
+
+#: includes/post-types.php:90
+msgid "Update question"
+msgstr "質問を更新"
+
+#: includes/post-types.php:91 widgets/search.php:61
+msgid "Search questions"
+msgstr "質問を検索"
+
+#: includes/post-types.php:92
+msgid "No question found"
+msgstr "質問は見つかりませんでした"
+
+#: includes/post-types.php:93
+msgid "No questions found in trash"
+msgstr "ゴミ箱に質問はありません"
+
+#: includes/post-types.php:161
+msgid "Parent answer:"
+msgstr "親の回答:"
+
+#: includes/post-types.php:162
+msgid "All answers"
+msgstr "すべての回答"
+
+#: includes/post-types.php:163
+msgid "View answer"
+msgstr "回答を見る"
+
+#: includes/post-types.php:164
+msgid "Add new answer"
+msgstr "新しい回答を追加"
+
+#: includes/post-types.php:167
+msgid "Update answer"
+msgstr "回答を更新"
+
+#: includes/post-types.php:168
+msgid "Search answers"
+msgstr "回答を検索"
+
+#: includes/post-types.php:169
+msgid "No answer found"
+msgstr "回答は見つかりませんでした"
+
+#: includes/post-types.php:170
+msgid "No answer found in trash"
+msgstr "ゴミ箱に回答が見つかりません"
+
+#: includes/qaquery-hooks.php:194
+msgid "No permission"
+msgstr "権限を許可しない"
+
+#: includes/qaquery-hooks.php:195
+msgid "You do not have permission to read this question."
+msgstr "この質問を読む権限がありません。"
+
+#: includes/qaquery.php:454
+msgid "Featured"
+msgstr "注目"
+
+#: includes/qaquery.php:458
+msgid "Solved"
+msgstr "解決済"
+
+#: includes/qaquery.php:462
+msgid "%d views"
+msgstr "ビュー%d件"
+
+#: includes/shortcode-basepage.php:58
+msgid "AnsPress shortcode cannot be nested."
+msgstr "AnsPressショートコードはネストできません。"
+
+#: includes/shortcode-basepage.php:84
+msgid "Question and answer is powered by"
+msgstr "質問と回答は"
+
+#: includes/subscribers.php:174
+msgid "All 2 arguments $event and $ref_id are deprecated."
+msgstr "2つの引数$event and $ref_idはすべて非推奨です。"
+
+#: includes/subscribers.php:248
+msgid "All 3 arguments $event, $ref_id and $user_id are deprecated."
+msgstr "$event、$ref_id、および$user_idの3つの引数はすべて非推奨です。"
+
+#: includes/taxo.php:322
+msgid "Tagged"
+msgstr "タグ付き"
+
+#: includes/theme.php:302
+msgid "Delete post permanently (cannot be restored again)"
+msgstr "投稿を完全に削除する（再度復元することはできません）"
+
+#: includes/theme.php:312
+msgid "Convert to post"
+msgstr "投稿に変換する"
+
+#: includes/theme.php:313
+msgid "Convert this question to blog post"
+msgstr "この質問をブログの投稿に変換する"
+
+#: includes/theme.php:372 widgets/questions.php:118
+msgid "Unanswered"
+msgstr "未回答"
+
+#: includes/theme.php:373
+msgid "Unsolved"
+msgstr "未解決"
+
+#: includes/theme.php:439
+msgid "Best answer"
+msgstr "ベスト回答"
+
+#: includes/theme.php:486
+msgid "Ask question"
+msgstr "質問する"
+
+#: includes/theme.php:626
+msgid "Order By"
+msgstr "オーダーは"
+
+#: includes/theme.php:671
+msgid "Reset sorting and filter"
+msgstr "ソートとフィルターをリセット"
+
+#: includes/theme.php:671
+msgid "Clear Filter"
+msgstr "フィルターをクリア"
+
+#: includes/theme.php:703
+msgid "Select this answer as best"
+msgstr "ベスト回答に選ぶ"
+
+#: includes/theme.php:711
+msgid "Unselect this answer"
+msgstr "この回答の選択を解除"
+
+#: includes/theme.php:863
+msgid "AnsPress links"
+msgstr "AnsPressリンク"
+
+#: includes/upload.php:43
+msgid "Unable to delete attachment"
+msgstr "添付ファイルを削除できません"
+
+#: includes/upload.php:113
+msgid "File cannot be uploaded, size is bigger than %s MB"
+msgstr "ファイルをアップロードできません。サイズは%s MBを超えています"
+
+#: includes/votes.php:66
+msgid "Your vote has been removed."
+msgstr "投票が無効になりました。"
+
+#: includes/votes.php:80
+msgid "Undo your vote first."
+msgstr "最初のあなたの投票を元に戻します。"
+
+#: includes/votes.php:96
+msgid "Thank you for voting."
+msgstr "投票ありがとうございました。"
+
+#: includes/votes.php:598 includes/votes.php:603
+msgid "You have already voted"
+msgstr "あなたはすでに投票しています"
+
+#: includes/votes.php:598 includes/votes.php:603
+msgid "Withdraw your vote"
+msgstr "あなたの投票を撤回する"
+
+#: includes/votes.php:598
+msgid "Up vote this post"
+msgstr "この投稿に一票"
+
+#: includes/votes.php:603
+msgid "Down vote this post"
+msgstr "この投稿を下げ票"
+
+#: lib/class-anspress-cli.php:71
+msgid "You must pass a addon name i.e. free/avatar.php"
+msgstr "アドオン名、つまりfree / avatar.phpを渡す必要があります"
+
+#: lib/class-anspress-cli.php:78
+msgid ""
+"Unable to activate addon. May be its already active or wrong name passed."
+msgstr ""
+"アドオンをアクティブ化できません。 すでにアクティブであるか間違った名前が渡さ"
+"れている可能性があります。"
+
+#: lib/class-anspress-cli.php:81
+msgid "Successfully enabled addon"
+msgstr "アドオンを正常に有効にしました"
+
+#. Translators: Question ID in placeholder.
+#: lib/class-anspress-upgrader.php:62
+msgid "Migrating question: %d"
+msgstr "移行中の質問:%d"
+
+#: lib/class-anspress-upgrader.php:261 lib/class-anspress-upgrader.php:269
+msgid "Successfully migrated all reputations"
+msgstr "すべての評判を正常に移行しました"
+
+#: lib/class-anspress-upgrader.php:287
+msgid "Migrated all reputations"
+msgstr "すべての評判を移行"
+
+#: lib/class-anspress-upgrader.php:358
+msgid "Categories data migrated"
+msgstr "移行されたカテゴリデータ"
+
+#: lib/class-form.php:91
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:284
+msgid "Submit"
+msgstr "送信"
+
+#. Translators: Placeholder contain form name.
+#: lib/class-form.php:178
+msgid "No fields found for form: %s"
+msgstr "フォームのフィールドが見つかりません:%s"
+
+#: lib/class-form.php:381 lib/form/class-field.php:380
+msgid "Error found in fields, please check and re-submit"
+msgstr "フィールドにエラーが見つかりました。確認して再送信してください"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:299 lib/class-validate.php:315
+msgid "%s field is required."
+msgstr "%sフィールドは必須です。"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:331
+msgid "Value provided in field %s is not a valid email."
+msgstr "フィールド%sに指定された値は有効なメールではありません。"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:347
+msgid "Value provided in field %s is not a valid URL."
+msgstr "フィールド%sに指定された値は有効なURLではありません。"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:363
+msgid "Value provided in field %s is not numeric."
+msgstr "フィールド%sに指定された値は数値ではありません。"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:386
+msgid "Value provided in field %1$s must be at least %2$d characters long."
+msgstr ""
+"フィールド%1$sに指定された値は、少なくとも%2$d文字以上でなければなりません。"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:410
+msgid "Value provided in field %1$s must not exceeds %2$d characters."
+msgstr "フィールド%1$sに指定された値は、%2$d文字を超えてはいけません。"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:429
+msgid "Value provided in field %s is not an array."
+msgstr "フィールド%sに指定された値は配列ではありません。"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:448
+msgid "Minimum %1$d values are required in field %2$s."
+msgstr "フィールド%2$sに最低%1$d個の値が必要です。"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:467
+msgid "Maximum values allowed in field %2$s is %1$d."
+msgstr "フィールド%2$sの最大値は%1$dです。"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:518
+msgid "Found bad words in field %s. Remove them and try again."
+msgstr ""
+"フィールド%sに不正な単語が見つかりました。 それらを取り外して、やり直してくだ"
+"さい。"
+
+#: lib/class-validate.php:535
+msgid "There is no error, the file uploaded with success"
+msgstr "エラーはなく、アップロードされたファイルは成功しています"
+
+#: lib/class-validate.php:536
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr ""
+"アップロードされたファイルがphp.iniのupload_max_filesizeディレクティブを超え"
+"ています"
+
+#: lib/class-validate.php:537
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+"アップロードされたファイルが、HTML形式で指定されたMAX_FILE_SIZE指令を超えてい"
+"ます"
+
+#: lib/class-validate.php:538
+msgid "The uploaded file was only partially uploaded"
+msgstr "アップロードされたファイルの一部のみがアップロードされました"
+
+#: lib/class-validate.php:539
+msgid "No file was uploaded"
+msgstr "ファイルがアップロードされていません"
+
+#: lib/class-validate.php:540
+msgid "Missing a temporary folder"
+msgstr "一時フォルダがありません"
+
+#: lib/class-validate.php:541
+msgid "Failed to write file to disk."
+msgstr "ファイルをディスクに書き込めませんでした。"
+
+#: lib/class-validate.php:542
+msgid "A PHP extension stopped the file upload."
+msgstr "PHP拡張モジュールがファイルのアップロードを停止しました。"
+
+#: lib/class-validate.php:632
+msgid "You are not allowed to upload file(s)"
+msgstr "ファイルをアップロードすることはできません。"
+
+#. Translators: %1$d contain maximum files user can upload, %2$s contain label
+#. of field.
+#: lib/class-validate.php:641
+msgid "You cannot upload more than %1$d file in field %2$s"
+msgstr "フィールド%2$sに%1$d個以上のファイルをアップロードすることはできません"
+
+#: lib/class-validate.php:648
+msgid "File type is not allowed to upload."
+msgstr "ファイルタイプはアップロードできません。"
+
+#. Translators: %s contain maximum file size user can upload.
+#: lib/class-validate.php:662
+msgid "File(s) size is bigger than %s MB"
+msgstr "ファイルのサイズが%s MBを超えています"
+
+#: lib/form/class-checkbox.php:41
+msgid "AnsPress Checkbox Field"
+msgstr "AnsPressチェックボックスフィールド"
+
+#: lib/form/class-editor.php:43
+msgid "AnsPress Editor Field"
+msgstr "AnsPressエディタフィールド"
+
+#. Translators: %s contain label of editor field.
+#: lib/form/class-editor.php:53
+msgid "%s images"
+msgstr "%s 画像"
+
+#: lib/form/class-group.php:50
+msgid "AnsPress Group Field"
+msgstr "AnsPressグループフィールド"
+
+#: lib/form/class-input.php:52
+msgid "AnsPress Input Field"
+msgstr "AnsPress入力フィールド"
+
+#: lib/form/class-radio.php:41
+msgid "AnsPress Radio Field"
+msgstr "AnsPressラジオフィールド"
+
+#: lib/form/class-repeatable.php:57
+msgid "AnsPress Repeatable Field"
+msgstr "反復可能フィールドの解析"
+
+#: lib/form/class-repeatable.php:164
+msgid "Add More %s"
+msgstr "%sをさらに追加"
+
+#: lib/form/class-select.php:41
+msgid "AnsPress Select Field"
+msgstr "AnsPressフィールドを選択"
+
+#: lib/form/class-select.php:88
+msgid "Select an option"
+msgstr "一覧から選んで選択して下さい。"
+
+#: lib/form/class-tags.php:50
+msgid "AnsPress Tags Field"
+msgstr "AnsPressタグフィールド"
+
+#: lib/form/class-textarea.php:41
+msgid "AnsPress Textarea Field"
+msgstr "テキストフィールドの入力"
+
+#: lib/form/class-upload.php:90
+msgid "AnsPress Upload Field"
+msgstr "AnsPressアップロードフィールド"
+
+#: lib/form/class-upload.php:98
+msgid "This file type is not allowed to upload."
+msgstr "このファイルタイプはアップロードできません。"
+
+#. Translators: %d contains maximum files allowed to upload.
+#: lib/form/class-upload.php:104
+msgid "You cannot add more then %d files"
+msgstr "%d個以上のファイルを追加することはできません"
+
+#: lib/form/class-upload.php:192
+msgid "Browse file(s)"
+msgstr "ブラウズファイル"
+
+#: templates/activities/activities.php:40
+msgid "That's all!"
+msgstr "それで全部です！"
+
+#: templates/activities/activities.php:56
+msgid "No activities found!"
+msgstr "アクティブは見つかりませんでした！"
+
+#: templates/activities/activity-ref-content.php:29
+msgid "View comment"
+msgstr "コメントを見る"
+
+#: templates/activities/activity.php:39
+msgid "with other activity"
+msgid_plural "with other %d activities"
+msgstr[0] "他の活動"
+
+#: templates/addons/category/categories-question-list.php:22
+#: templates/addons/tag/tags-question-list.php:22
+msgid "View all questions"
+msgstr "すべての質問を見る"
+
+#. Translators: %d contains count of sub category.
+#: templates/addons/category/categories.php:56
+msgid "%d Sub category"
+msgid_plural "%d Sub categories"
+msgstr[0] "%dサブカテゴリ"
+
+#: templates/addons/category/no-category-found.php:14
+msgid "No category is set!"
+msgstr "カテゴリは設定されていません！"
+
+#: templates/addons/category/single-category.php:62
+msgid "Sub Categories"
+msgstr "サブカテゴリー"
+
+#: templates/addons/notification/index.php:24 templates/functions.php:46
+msgid "Mark all as seen"
+msgstr "すべてにマークする"
+
+#: templates/addons/notification/index.php:29
+msgid "All"
+msgstr "すべて"
+
+#: templates/addons/notification/index.php:30
+msgid "Unseen"
+msgstr "解除"
+
+#: templates/addons/notification/index.php:31
+msgid "Seen"
+msgstr "シーン"
+
+#: templates/addons/notification/index.php:41
+msgid "No notification"
+msgstr "通知はありません"
+
+#: templates/addons/tag/no-tags-found.php:15
+msgid "No tags is set!"
+msgstr "タグは設定されていません！"
+
+#: templates/addons/tag/tag.php:20
+msgid "1 Question"
+msgid_plural "%s Questions"
+msgstr[0] "1つの質問"
+
+#: templates/addons/tag/tags.php:22
+msgid "Search tags"
+msgstr "タグの検索"
+
+#. Translators: %s contain human readable time.
+#: templates/addons/user/answer-item.php:38 templates/answer.php:29
+#: templates/shortcode/question.php:47
+msgid "Posted %s"
+msgstr "投稿された%s"
+
+#: templates/addons/user/answer-item.php:45
+#: templates/buddypress/answer-item.php:39
+#: templates/buddypress/question-item.php:41
+msgid "View Question"
+msgstr "質問を見る"
+
+#: templates/addons/user/answer-item.php:50
+#: templates/buddypress/answer-item.php:44
+#: templates/buddypress/question-item.php:47
+msgid "%d Vote"
+msgid_plural "%d Votes"
+msgstr[0] "%d投票"
+
+#: templates/addons/user/answer-item.php:52
+#: templates/buddypress/answer-item.php:46
+msgid "This answer is selected as best"
+msgstr "この回答はベストとして選択されています"
+
+#: templates/addons/user/answer-item.php:52
+#: templates/buddypress/answer-item.php:46
+msgid "Selected"
+msgstr "選択"
+
+#: templates/addons/user/answers.php:35
+msgid "No answer posted by this user."
+msgstr "このユーザーによって投稿された回答はありません。"
+
+#: templates/addons/user/index.php:23
+msgid "Please login to view your profile"
+msgstr "あなたのプロフィールを表示するにはログインしてください"
+
+#: templates/answer-form.php:28
+msgid "Write your answer."
+msgstr "あなたの答えを書いてください。"
+
+#: templates/attachments.php:14
+msgid "Attachments"
+msgstr "添付ファイル"
+
+#: templates/attachments.php:17
+msgid "Download file"
+msgstr "ダウンロード"
+
+#: templates/content-answer.php:18
+msgid "Total votes"
+msgstr "総投票数"
+
+#: templates/content-none.php:14
+msgid "Sorry! No question found."
+msgstr "ごめんなさい！ 質問は見つかりませんでした。"
+
+#: templates/content-none.php:24
+msgid ""
+"Showing results with pagination active, you are currently on page %d. Click "
+"here to return to the initial page"
+msgstr ""
+"ページ区切りを有効にした結果を表示しています。あなたは現在ページ%dにありま"
+"す。 最初のページに戻るにはここをクリック"
+
+#: templates/content-none.php:27
+msgid "go to page 1"
+msgstr "1ページに行く"
+
+#: templates/functions.php:36
+msgid "Loading.."
+msgstr "ローディング.."
+
+#: templates/functions.php:37
+msgid "Sending request"
+msgstr "要求を送信中"
+
+#: templates/functions.php:38
+msgid "File size is bigger than %s MB"
+msgstr "ファイルサイズが%s MBを超えています"
+
+#: templates/functions.php:39
+msgid "You have already attached maximum numbers of allowed attachments"
+msgstr "すでに許可されている添付ファイルの最大数が添付されています"
+
+#: templates/functions.php:42
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: templates/functions.php:43
+msgid "Update"
+msgstr "更新"
+
+#: templates/functions.php:44
+msgid "Write your comment..."
+msgstr "あなたのコメントを書く..."
+
+#: templates/functions.php:48
+msgid "Sorry, you don't have permission to read comments."
+msgstr "申し訳ありませんが、コメントを読む権限がありません。"
+
+#: templates/functions.php:67
+msgid "(AnsPress) Before"
+msgstr "（AnsPress）ビフォアー"
+
+#: templates/functions.php:71
+msgid "Widgets in this area will be shown before anspress body."
+msgstr "このエリアのウィジェットは、AnsPressのbodyに表示されます。"
+
+#: templates/functions.php:77
+msgid "(AnsPress) Question List Top"
+msgstr "（AnsPress）質問一覧Top"
+
+#: templates/functions.php:81
+msgid "Widgets in this area will be shown before questions list."
+msgstr "このエリアのウィジェットは、質問一覧の前に表示されます。"
+
+#: templates/functions.php:87
+msgid "(AnsPress) Sidebar"
+msgstr "（AnsPress）サイドバー"
+
+#: templates/functions.php:91
+msgid ""
+"Widgets in this area will be shown in AnsPress sidebar except single "
+"question page."
+msgstr ""
+"このエリアのウィジェットは、単一質問ページ以外のAnsPressサイドバーに表示され"
+"ます。"
+
+#: templates/functions.php:97
+msgid "(AnsPress) Question Sidebar"
+msgstr "（AnsPress）質問サイドバー"
+
+#: templates/functions.php:101
+msgid "Widgets in this area will be shown in single question page sidebar."
+msgstr ""
+"このエリアのウィジェットは、1つの質問ページのサイドバーに表示されます。"
+
+#: templates/functions.php:107
+msgid "(AnsPress) Category Page"
+msgstr "（AnsPress）カテゴリページ"
+
+#: templates/functions.php:111
+msgid "Widgets in this area will be shown in category listing page."
+msgstr "このエリアのウィジェットは、カテゴリ一覧ページに表示されます。"
+
+#: templates/functions.php:117
+msgid "(AnsPress) Tag page"
+msgstr "（AnsPress）タグページ"
+
+#: templates/functions.php:121
+msgid "Widgets in this area will be shown in tag listing page."
+msgstr "このエリアのウィジェットは、タグ一覧ページに表示されます。"
+
+#: templates/functions.php:127
+msgid "(AnsPress) Author page"
+msgstr "（AnsPress）作成者ページ"
+
+#: templates/functions.php:131
+msgid "Widgets in this area will be shown in authors page."
+msgstr "このエリアのウィジェットは著者ページに表示されます。"
+
+#: templates/login-signup.php:19
+msgid "Register"
+msgstr "新規登録"
+
+#: templates/login-signup.php:20
+msgid "or"
+msgstr "または"
+
+#: templates/login-signup.php:21
+msgid "Login"
+msgstr "ログイン"
+
+#: templates/not-found.php:1
+msgid "Error 404"
+msgstr "404エラー"
+
+#: templates/question-list.php:32
+msgid ""
+"There are no questions matching your query or you do not have permission to "
+"read them."
+msgstr "クエリに一致する質問はありません。また、クエリを読む権限がありません。"
+
+#: templates/search-form.php:18
+msgid "Search questions..."
+msgstr "質問を検索..."
+
+#: templates/shortcode/question.php:87
+msgid "View all answers"
+msgstr "すべての回答を見る"
+
+#: templates/single-question.php:65
+msgid "Scheduled for"
+msgstr "予定されている"
+
+#: templates/single-question.php:65
+msgid "Published"
+msgstr "発行済み"
+
+#: templates/single-question.php:78
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s コメント"
+
+#: templates/widgets/widget-questions.php:17
+msgid "1 Answer"
+msgid_plural "%d Answers"
+msgstr[0] "%d 回答"
+
+#: templates/widgets/widget-questions.php:19
+msgid "1 Vote"
+msgid_plural "%d Votes"
+msgstr[0] "%d 投票"
+
+#: templates/widgets/widget-questions.php:23
+msgid "No questions found."
+msgstr "質問は見つかりませんでした。"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/internationalized-plugin.php:11
+msgid "This is a dummy plugin"
+msgstr "これはダミーのプラグインです"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/parsers.php:42
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/parsers.php:72
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr "このWXRファイルを読むときにエラーが発生しました"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+"詳細は上記に示されている。 インポータは、今度は別のパーサーで再試行します..."
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/parsers.php:84
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/parsers.php:89
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/parsers.php:306
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/parsers.php:495
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+"これはWXRファイルではないようですが、WXRのバージョン番号がない/無効です"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:132
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:141
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:192
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:196
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:205
+msgid "Sorry, there has been an error."
+msgstr "申し訳ありませんが、エラーが発生しました。"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:133
+msgid "The file does not exist, please try again."
+msgstr "ファイルが存在しません。もう一度お試しください。"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:176
+msgid "All done."
+msgstr "すべて完了。"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:176
+msgid "Have fun!"
+msgstr "楽しんで！"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:177
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+"インポートしたユーザーのパスワードと役割を更新することを忘れないでください。"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:197
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+"エクスポートファイルは<code>%s</code>に見つかりませんでした。 これは、アクセ"
+"ス許可の問題によって発生した可能性があります。"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:213
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+"このWXRファイル(version %s)は、このバージョンのインポーターでサポートされてい"
+"ない可能性があります。 更新を検討してください。"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:238
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+"作成者%sをインポートできませんでした。 投稿は現在のユーザーに帰属します。"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:264
+msgid "Assign Authors"
+msgstr "作成者"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:265
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+"インポートされたコンテンツの編集と保存を容易にするために、インポートしたアイ"
+"テムの作成者をこのサイトの既存のユーザーに再割り当てすることができます。 たと"
+"えば、すべてのエントリを<code>admin</code>のエントリとしてインポートすること"
+"ができます。"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:267
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+"新しいユーザーがWordPressによって作成された場合、新しいパスワードがランダムに"
+"生成され、新しいユーザー&#8217;の役割が%sとして設定されます。 新しいユーザー"
+"&#8217;の詳細を手動で変更する必要があります。"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:277
+msgid "Import Attachments"
+msgstr "添付ファイルのインポート"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:280
+msgid "Download and import file attachments"
+msgstr "添付ファイルをダウンロードしてインポートする"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:297
+msgid "Import author:"
+msgstr "著者をインポートする："
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:308
+msgid "or create new user with login name:"
+msgstr "ログイン名で新しいユーザーを作成する："
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:311
+msgid "as a new user:"
+msgstr "新しいユーザー:"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:319
+msgid "assign posts to an existing user:"
+msgstr "既存のユーザーに投稿を割り当てる："
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:321
+msgid "or assign posts to an existing user:"
+msgstr "既存のユーザーに投稿を割り当てる："
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:322
+msgid "- Select -"
+msgstr "-選択-"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:372
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+"%sの新しいユーザーの作成に失敗しました。 投稿は現在のユーザーに帰属します。"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:424
+msgid "Failed to import category %s"
+msgstr "カテゴリ%sをインポートできませんでした"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:467
+msgid "Failed to import post tag %s"
+msgstr "投稿タグ%sをインポートできませんでした"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:516
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:738
+msgid "Failed to import %s %s"
+msgstr "%s %sをインポートできませんでした"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:605
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr "&#8220;%s&#8221;:をインポートできませんでした：無効な投稿タイプ%s"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:642
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; はすでに存在します。"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:704
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "%s &#8220;%s&#8221;をインポートできませんでした"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:869
+msgid "Menu item skipped due to missing menu slug"
+msgstr "メニュースラッグがないためにスキップされたメニュー項目"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:876
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "無効なメニューのためにスキップされたメニュー項目スラッグ:%s"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:939
+msgid "Fetching attachments is not enabled"
+msgstr "添付ファイルを取得できません"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:952
+msgid "Invalid file type"
+msgstr "無効なファイルタイプ"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:996
+msgid "Remote server did not respond"
+msgstr "リモートサーバーが応答しなかった"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:1002
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "リモートサーバーからエラー応答 %1$d %2$sが返されました"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:1009
+msgid "Remote file is incorrect size"
+msgstr "リモートファイルのサイズが正しくありません"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:1014
+msgid "Zero size file downloaded"
+msgstr "ゼロサイズのファイルがダウンロードされました"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:1020
+msgid "Remote file is too large, limit is %s"
+msgstr "リモートファイルが大きすぎます。制限は%sです"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:1119
+msgid "Import WordPress"
+msgstr "WordPressのインポート"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:1126
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+"このインポーターの新しいバージョンが利用可能です。 より新しいエクスポートファ"
+"イルとの互換性を確認するには、バージョン%sに更新してください。"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:1141
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+"ハウディー！ WordPress eXtended RSS（WXR）ファイルをアップロードすると"
+"&#8217;、このサイトに投稿、ページ、コメント、カスタムフィールド、カテゴリ、タ"
+"グがインポートされます。"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:1142
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+"アップロードするWXR（.xml）ファイルを選択し、「ファイルをアップロードしてイン"
+"ポート」をクリックします。"
+
+#: vendor/lucatume/wp-browser/src/data/plugins/wordpress-importer/wordpress-importer.php:1216
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+"WordPressのエクスポートファイルから<strong>投稿、ページ、コメント、カスタム"
+"フィールド、カテゴリ、タグ</strong>をインポートします。"
+
+#: vendor/lucatume/wp-browser/src/data/themedir1/internationalized-theme/functions.php:7
+msgid "This is a dummy theme"
+msgstr "これはダミーのテーマです"
+
+#: vendor/wp-cli/core-command/src/Core_Command.php:651
+msgid "Wildcard DNS may not be configured correctly."
+msgstr "ワイルドカードDNSが正しく設定されていない可能性があります。"
+
+#: vendor/wp-cli/cron-command/src/Cron_Event_Command.php:428
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%d 年"
+
+#: vendor/wp-cli/cron-command/src/Cron_Event_Command.php:429
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%d ヶ月"
+
+#: vendor/wp-cli/cron-command/src/Cron_Event_Command.php:430
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s週"
+
+#: vendor/wp-cli/cron-command/src/Cron_Event_Command.php:431
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s日"
+
+#: vendor/wp-cli/cron-command/src/Cron_Event_Command.php:432
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s 時間"
+
+#: vendor/wp-cli/cron-command/src/Cron_Event_Command.php:433
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s 分"
+
+#: vendor/wp-cli/cron-command/src/Cron_Event_Command.php:434
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s 秒"
+
+#: vendor/wp-cli/entity-command/src/Site_Command.php:118
+msgid "Uncategorized"
+msgstr "未分類"
+
+#: vendor/wp-cli/export-command/src/Export_Command.php:324
+msgid "Invalid start ID: %d"
+msgstr "無効な開始ID：%d"
+
+#: vendor/wp-cli/export-command/src/WP_Export_File_Writer.php:15
+#: vendor/wp-cli/export-command/src/WP_Export_Split_Files_Writer.php:63
+msgid "WP Export: error opening %s for writing."
+msgstr "WPエクスポート：書き込みのために%sを開くときにエラーが発生しました。"
+
+#: vendor/wp-cli/export-command/src/WP_Export_File_Writer.php:32
+#: vendor/wp-cli/export-command/src/WP_Export_Split_Files_Writer.php:51
+msgid "WP Export: error writing to export file."
+msgstr "WPエクスポート：エクスポートファイルへの書き込みエラー。"
+
+#: vendor/wp-cli/export-command/src/WP_Export_Query.php:337
+msgid "Term is missing a parent: %s (%d)"
+msgstr "語句に親がありません：%s（%d）"
+
+#: vendor/wp-cli/export-command/src/WP_Export_XML_Over_HTTP.php:19
+#: vendor/wp-cli/export-command/src/WP_Export_XML_Over_HTTP.php:23
+msgid "Export Error"
+msgstr "エクスポートエラー"
+
+#: vendor/wp-cli/extension-command/src/WP_CLI/CommandWithUpgrade.php:608
+msgid " Try again"
+msgstr "再試行する"
+
+#: vendor/wp-cli/extension-command/src/WP_CLI/CommandWithUpgrade.php:613
+msgid "API error. Try Again."
+msgstr "APIエラー。 再試行する。"
+
+#: vendor/wp-cli/media-command/src/Media_Command.php:142
+msgid "image"
+msgid_plural "images"
+msgstr[0] "画像"
+
+#: vendor/wp-cli/wp-cli/php/utils-wp.php:171
+msgid "Inactive Widgets"
+msgstr "非アクティブウィジェット"
+
+#: vendor/wp-cli/wp-cli/php/utils-wp.php:174
+msgid ""
+"Drag widgets here to remove them from the sidebar but keep their settings."
+msgstr ""
+"ここにウィジェットをドラッグすると、サイドバーからウィジェットを削除できます"
+"が、設定は保持されます。"
+
+#: widgets/ask-form.php:28
+msgid "(AnsPress) Ask form"
+msgstr "（AnsPress）お問い合わせフォーム"
+
+#: widgets/ask-form.php:29
+msgid "AnsPress ask form widget"
+msgstr "AnsPressはフォームウィジェットに尋ねる"
+
+#: widgets/ask-form.php:68
+msgid "Ask questions"
+msgstr "質問をする"
+
+#: widgets/breadcrumbs.php:28
+msgid "(AnsPress) Breadcrumbs"
+msgstr "(AnsPress) Breadcrumbs"
+
+#: widgets/breadcrumbs.php:29
+msgid "Show current anspress page navigation"
+msgstr "現在のAnsPressページのナビゲーションを表示する"
+
+#: widgets/question_stats.php:25
+msgid "(AnsPress) Question Stats"
+msgstr "（AnsPress）質問の統計"
+
+#: widgets/question_stats.php:26
+msgid "Shows question stats in single question page."
+msgstr "1つの質問ページに質問の統計情報を表示します。"
+
+#: widgets/question_stats.php:48
+msgid "One time"
+msgid_plural "%d times"
+msgstr[0] "%d 時間"
+
+#: widgets/question_stats.php:49
+msgid "%2$s1%3$s answer"
+msgid_plural "%2$s%1$d%3$s answers"
+msgstr[0] "%2$s%1$d%3$s 回答"
+
+#: widgets/question_stats.php:52
+msgid "This widget can only be used in single question page"
+msgstr "このウィジェットは単一質問ページでのみ使用できます"
+
+#: widgets/question_stats.php:64
+msgid "Question stats"
+msgstr "質問の統計"
+
+#: widgets/questions.php:29
+msgid "(AnsPress) Questions"
+msgstr "（AnsPress）質問"
+
+#: widgets/questions.php:30
+msgid "Shows list of question shorted by option."
+msgstr "オプションでショートされた質問のリストを表示します。"
+
+#: widgets/questions.php:112
+msgid "Order by:"
+msgstr "並び順:"
+
+#: widgets/questions.php:123
+msgid "Category IDs:"
+msgstr "カテゴリ ID:"
+
+#: widgets/questions.php:125
+msgid "Comma separted AnsPress category ids"
+msgstr "カテゴリはコンマで分けます"
+
+#: widgets/questions.php:129
+msgid "Limit:"
+msgstr "期限:"
+
+#: widgets/search.php:30
+msgid "(AnsPress) Search"
+msgstr "（AnsPress）検索"
+
+#: widgets/search.php:31
+msgid "Question and answer search form."
+msgstr "質問と回答の検索フォーム。"
+
+#. Plugin Name of the plugin/theme
+msgid "AnsPress Question Answer"
+msgstr "AnsPress質問回答"
+
+#. Author URI of the plugin/theme
+msgid "https://anspress.io"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The most advance community question and answer system for WordPress"
+msgstr "WordPressのための最も進んだコミュニティ質問と回答システム"
+
+#. Author of the plugin/theme
+msgid "Rahul Aryan"
+msgstr ""
+
+#: addons/free/tag.php:182
+msgctxt "anspress-question-answer"
+msgid "Tag"
+msgstr "タグ"
+
+#: addons/free/tag.php:184
+msgctxt "anspress-question-answer"
+msgid "Add New Tag"
+msgstr "新しいタグを追加"
+
+#: includes/post-types.php:81
+msgctxt "Post Type General Name"
+msgid "Questions"
+msgstr "質問"
+
+#: includes/post-types.php:158
+msgctxt "Post Type General Name"
+msgid "Answers"
+msgstr "回答"
+
+#: includes/post-types.php:82
+msgctxt "Post Type Singular Name"
+msgid "Question"
+msgstr "質問"
+
+#: includes/post-types.php:159
+msgctxt "Post Type Singular Name"
+msgid "Answer"
+msgstr "回答"
+
+#: vendor/wp-cli/core-command/src/Core_Command.php:429
+#: vendor/wp-cli/core-command/src/Core_Command.php:502
+msgctxt "Default network name"
+msgid "%s Sites"
+msgstr ""
+
+#. translators: Default category slug
+#: vendor/wp-cli/entity-command/src/Site_Command.php:121
+msgctxt "Default category slug"
+msgid "Uncategorized"
+msgstr "未分類"
+
+#, fuzzy
+#~ msgid "AnsPress"
+#~ msgstr "AnsPressについて"
+
+#, fuzzy
+#~ msgid "Load comments"
+#~ msgstr "コメントを表示"
+
+#, fuzzy
+#~ msgid "Show question and answer comments by default"
+#~ msgstr "デフォルトでコメントを表示"
+
+#, fuzzy
+#~ msgid "Question ID"
+#~ msgstr "質問"
+
+#, fuzzy
+#~ msgid "Comments on %s"
+#~ msgstr "回答へコメントされました"
+
+#, fuzzy
+#~ msgid "View all comments"
+#~ msgstr "コメントを無効にする"
+
+#, fuzzy
+#~ msgid "No tags found!"
+#~ msgstr "回答は見つかりませんでした"
+
+#, fuzzy
+#~ msgid "No matching tags found!"
+#~ msgstr "回答は見つかりませんでした"
+
+#, fuzzy
+#~ msgid "Add New Tag."
+#~ msgstr "回答を新規作成"
+
+#, fuzzy
+#~ msgid "You have already added maximum numbers of tags allowed."
+#~ msgstr "あなたは既に許可されたアップロードの最大数を添付しています。"
+
+#, fuzzy
+#~ msgid "Dynamic Avatar"
+#~ msgstr "アバター"
+
+#~ msgid "Closed"
+#~ msgstr "閉鎖済"
+
+#, fuzzy
+#~ msgid "Edit Comment"
+#~ msgstr "コメント"
+
+#~ msgid "Discussion on \"%s\""
+#~ msgstr "\"%s\" でのディスカッション"
+
+#, fuzzy
+#~ msgctxt "anspress-question-answer"
+#~ msgid "Category"
+#~ msgstr "カテゴリ"
+
+#, fuzzy
+#~ msgid ""
+#~ "Hello!\n"
+#~ "Your answer on '{question_title}' was selected as best.\n"
+#~ "\n"
+#~ "Link: {answer_link}"
+#~ msgstr "あなたの <b>##post_title</b> への回答がベスト回答に選ばれました"
+
+#, fuzzy
+#~ msgid "New question subject"
+#~ msgstr "新しい質問"
+
+#, fuzzy
+#~ msgid "New question body"
+#~ msgstr "新しい質問"
+
+#, fuzzy
+#~ msgid "New answer subject"
+#~ msgstr "新しい回答"
+
+#, fuzzy
+#~ msgid "New answer body"
+#~ msgstr "新しい回答"
+
+#, fuzzy
+#~ msgid "Select answer subject"
+#~ msgstr "ベスト回答に選ぶ"
+
+#, fuzzy
+#~ msgid "Select answer body"
+#~ msgstr "回答を選択"
+
+#, fuzzy
+#~ msgid "New comment subject"
+#~ msgstr "%d コメント"
+
+#, fuzzy
+#~ msgid "Edit question subject"
+#~ msgstr "質問を編集"
+
+#, fuzzy
+#~ msgid "Edit question body"
+#~ msgstr "質問を編集"
+
+#, fuzzy
+#~ msgid "Edit answer body"
+#~ msgstr "回答を編集"
+
+#, fuzzy
+#~ msgid "Slug categories page"
+#~ msgstr "AnsPress カテゴリページ"
+
+#, fuzzy
+#~ msgid "Title of the categories page"
+#~ msgstr "ユーザーページのタイトル"
+
+#, fuzzy
+#~ msgid "Notify admin(s)"
+#~ msgstr "通知"
+
+#, fuzzy
+#~ msgid "User Profile"
+#~ msgstr "ユーザープロフィール"
+
+#, fuzzy
+#~ msgid "reCaptcha"
+#~ msgstr "reCaptacha"
+
+#~ msgid "Bot verification failed."
+#~ msgstr "Botの検証が失敗しました。"
+
+#~ msgid "reCaptach keys missing, please add keys"
+#~ msgstr "reCaptachキーが見つかりません、再度キーを追加してください。"
+
+#, fuzzy
+#~ msgid "Events"
+#~ msgstr "イベント"
+
+#, fuzzy
+#~ msgid "Tags page title"
+#~ msgstr "メインページタイトル"
+
+#, fuzzy
+#~ msgid "Title for tags page"
+#~ msgstr "質問ページのタイトル"
+
+#, fuzzy
+#~ msgid "Slug tags page"
+#~ msgstr "ページを選択"
+
+#~ msgid "Select question"
+#~ msgstr "質問を選んでください"
+
+#, fuzzy
+#~ msgid "Access"
+#~ msgstr "成功"
+
+#, fuzzy
+#~ msgid "Questions page"
+#~ msgstr "ページごとの質問数"
+
+#~ msgid "Select page for displaying anspress."
+#~ msgstr "AnsPressを表示するページを選択してください"
+
+#, fuzzy
+#~ msgid "Ask question page slug"
+#~ msgstr "質問ページスラッグ"
+
+#, fuzzy
+#~ msgid "Set a slug for ask question page."
+#~ msgstr "質問ページのスラッグを入力"
+
+#~ msgid "Title of the ask page"
+#~ msgstr "質問ページのタイトル"
+
+#~ msgid "Avatar"
+#~ msgstr "アバター"
+
+#~ msgid "Items to show per page"
+#~ msgstr "ページごとのアイテム数"
+
+#, fuzzy
+#~ msgid "Question & Answer"
+#~ msgstr "フラグを付けられた質疑応答"
+
+#~ msgid "Use text editor ?"
+#~ msgstr "テキストエディターを使いますか ?"
+
+#~ msgid "Text editor as default."
+#~ msgstr "テキストエディターをデフォルトで使用する場合はチェック"
+
+#~ msgid "Allow an user to submit multiple answers on a single question."
+#~ msgstr "ユーザーが1つの質問に複数回答を提出できるようにします。"
+
+#, fuzzy
+#~ msgid "Only logged in can see questions, answer and comments?"
+#~ msgstr "ログインユーザーのみコメントを見れます"
+
+#~ msgid "Asker can answer"
+#~ msgstr "質問者も回答できます"
+
+#~ msgid "Allow asker to answer his own question."
+#~ msgstr "質問者が自分の質問に回答することを許可"
+
+#~ msgid "Allow anonymous"
+#~ msgstr "匿名を許可"
+
+#~ msgid "Non-loggedin user can post questions and answers."
+#~ msgstr "非ログインユーザーも質疑応答が出来ます"
+
+#~ msgid "Only admin can answer"
+#~ msgstr "管理者のみが回答できます"
+
+#~ msgid "Only allow admin to answer question."
+#~ msgstr "管理者のみが質問に答えることができます。"
+
+#~ msgid "Only logged in can see answers"
+#~ msgstr "ログインユーザーのみが回答を見れます"
+
+#~ msgid "non-loggedin user cannot see answers."
+#~ msgstr "非ログインユーザーは回答が見れません"
+
+#~ msgid "Only logged in can see comment"
+#~ msgstr "ログインユーザーのみコメントを見れます"
+
+#~ msgid "non-loggedin user cannot see comments."
+#~ msgstr "日ログインユーザーはコメントが見れません"
+
+#~ msgid "Lock delete action"
+#~ msgstr "削除操作をロック"
+
+#~ msgid ""
+#~ "Lock comment or post after a period so that user cannot delete it. Set "
+#~ "the time in epoch i.e. 86400 = 1 day."
+#~ msgstr ""
+#~ "そのユーザーはそれを削除することはできませんので、期間の後にコメントや投稿"
+#~ "をロックします。エポックすなわち86400=1日の時間を設定します。"
+
+#~ msgid "Upload"
+#~ msgstr "アップロード"
+
+#, fuzzy
+#~ msgid "User roles"
+#~ msgstr "ユーザープロフィール"
+
+#, fuzzy
+#~ msgid "Permission and role"
+#~ msgstr "パーミッション"
+
+#, fuzzy
+#~ msgid "Questions and Answers"
+#~ msgstr "質問と回答を検索"
+
+#, fuzzy
+#~ msgid "Thank you for choosing AnsPress"
+#~ msgstr "投票ありがとうございました。"
+
+#, fuzzy
+#~ msgid "Post you are trying to edit is not a question."
+#~ msgstr "この質問を編集する権限がありません。"
+
+#~ msgid "Post question"
+#~ msgstr "質問を投稿"
+
+#~ msgid "Repeat your password"
+#~ msgstr "パスワードを再入力"
+
+#~ msgid "It must be minimum %d characters"
+#~ msgstr "%d 桁以上必要です"
+
+#~ msgid "Not a valid email address"
+#~ msgstr "有効なメールアドレスではありません"
+
+#, fuzzy
+#~ msgid "Unable to load comments"
+#~ msgstr "コメントを無効にする"
+
+#, fuzzy
+#~ msgid "Unable to update comment"
+#~ msgstr "コメントを更新"
+
+#~ msgid "Ask"
+#~ msgstr "質問"
+
+#~ msgid "You do not have permission to delete this comment"
+#~ msgstr "このコメントを削除する権限がありません"
+
+#~ msgid "Comment deleted successfully."
+#~ msgstr "コメントが削除されました。"
+
+#~ msgid "Form loaded."
+#~ msgstr "フォームがロードされました。"
+
+#~ msgid "Something went wrong, please try again."
+#~ msgstr "エラーです。再度お試しください。"
+
+#, fuzzy
+#~ msgid "Don't have a user account?."
+#~ msgstr "ユーザーアカウントを持ってませんか? %s今すぐ登録する%s."
+
+#~ msgid "Successfully loaded form."
+#~ msgstr "フォームが正常にロードされました"
+
+#~ msgid "Create new tag"
+#~ msgstr "タグを新規作成"
+
+#~ msgid "Enter tag"
+#~ msgstr "タグを入力"
+
+#~ msgid "Description of tag."
+#~ msgstr "タグの説明"
+
+#~ msgid "Create tag"
+#~ msgstr "タグを作成"
+
+#, fuzzy
+#~ msgid "Sorry, you cannot asnwer on this question"
+#~ msgstr "あなただけが、この質問に賛同しています。"
+
+#, fuzzy
+#~ msgid "Sorry, you cannot edit this answer"
+#~ msgstr "この回答を編集する"
+
+#, fuzzy
+#~ msgid "Restricted content"
+#~ msgstr "コメントが編集されました"
+
+#, fuzzy
+#~ msgid "You have already uploaded maximum numbers of allowed attachments"
+#~ msgstr "あなたは既に許可されたアップロードの最大数を添付しています。"
+
+#, fuzzy
+#~ msgid "Question tag: %s"
+#~ msgstr "質問の統計"
+
+#, fuzzy
+#~ msgid "No description."
+#~ msgstr "説明"
+
+#~ msgid "Password not matching"
+#~ msgstr "パスワードが一致しません。"
+
+#~ msgid "Password length must be 6 or higher"
+#~ msgstr "パスワードの長さは6桁以上である必要があります"
+
+#~ msgid "Username length must be 4 or higher"
+#~ msgstr "ユーザー名は4文字以上である必要があります"
+
+#~ msgid "Username not available"
+#~ msgstr "無効なユーザー名です"
+
+#, fuzzy
+#~ msgid "Do you want to reset your password?"
+#~ msgstr "このメールはすでに使用中です. %sパスワードをリセットしますか?%s"
+
+#~ msgid "Uploading"
+#~ msgstr "アップロード中"
+
+#~ msgid "This is a private %s."
+#~ msgstr "これはプライベートです %s."
+
+#~ msgid "This %s waiting for moderation."
+#~ msgstr "この %s は承認待ちです。"
+
+#~ msgid "This has been trashed or waiting for approval."
+#~ msgstr "これはゴミ箱に移動されたか承認待ちです。"
+
+#, fuzzy
+#~ msgid "Auto delete notifications"
+#~ msgstr "通知を削除"
+
+#, fuzzy
+#~ msgid "Auto delete notifications interval"
+#~ msgstr "通知を削除"
+
+#, fuzzy
+#~ msgid "%s comment approved"
+#~ msgid_plural "%s comments approved"
+#~ msgstr[0] "コメント済"
+
+#~ msgid "Points"
+#~ msgstr "ポイント"
+
+#~ msgid "Moderate question & answer"
+#~ msgstr "質疑応答をモデレートしてください"
+
+#~ msgid "Post flag"
+#~ msgstr "フラグを付けてください"
+
+#~ msgid "Role and permission for AnsPress"
+#~ msgstr "Role and permission for AnsPress"
+
+#~ msgid ""
+#~ "Is your existing question tags are not appearing ? click here to fix it %s"
+#~ msgstr "既存のタグが表示されませんか ? ここをクリックしてFIXしてくだい %s"
+
+#~ msgid "Fix question tags"
+#~ msgstr "Fix 質問タグ"
+
+#~ msgid "Hide message %s"
+#~ msgstr "メッセージを非表示 %s"
+
+#~ msgid "dismiss"
+#~ msgstr "破棄"
+
+#~ msgid "By %s"
+#~ msgstr "By %s"
+
+#~ msgid "Last Updated:"
+#~ msgstr "最終更新日:"
+
+#~ msgid "Untested with your version of WordPress"
+#~ msgstr "あなたのWordpressバージョンでは動作確認されていません"
+
+#~ msgid "<strong>Compatible</strong> with your version of WordPress"
+#~ msgstr "あなたのWordpressは <strong>互換</strong>"
+
+#~ msgid "Draft"
+#~ msgstr "下書き"
+
+#~ msgid "Type"
+#~ msgstr "タイプ"
+
+#~ msgid "Delete permanently"
+#~ msgstr "完全に削除"
+
+#~ msgid "Move to trash"
+#~ msgstr "ゴミ箱に入れる"
+
+#~ msgid "Base page"
+#~ msgstr "基本ページ"
+
+#~ msgid "Question Help page"
+#~ msgstr "質問ヘルプページ"
+
+#~ msgid "Direction for asking a question."
+#~ msgstr "質問方法の操作説明ページ"
+
+#~ msgid "Answer Help page"
+#~ msgstr "回答ヘルプページ"
+
+#~ msgid "Clean DB"
+#~ msgstr "データベースクリア"
+
+#~ msgid ""
+#~ "check this to remove all anspress data including posts on deactivating "
+#~ "plugin."
+#~ msgstr ""
+#~ "プラグインを無効化する上での投稿を含むすべてのanspressデータを削除するに"
+#~ "は、これをチェック。"
+
+#~ msgid "Base page slug before user page permalink"
+#~ msgstr "ユーザーパーマリンク前の基本ページスラッグ"
+
+#~ msgid "Disable hover card"
+#~ msgstr "プロフィールカードのホバーを無効"
+
+#~ msgid "Dont show user hover card on mouseover."
+#~ msgstr "マウスオーバーのユーザーカードホバーを表示しない"
+
+#~ msgid "Users to show per page."
+#~ msgstr "ページに表示するユーザー数"
+
+#~ msgid "Sorting"
+#~ msgstr "ソート"
+
+#~ msgid "Sort answers by default."
+#~ msgstr "デフォルトで回答をソートします"
+
+#~ msgid "Toggle"
+#~ msgstr "トグル"
+
+#~ msgid "Show question sidebar"
+#~ msgstr "質問サイドバーの表示"
+
+#~ msgid "Page slug"
+#~ msgstr "ページスラッグ"
+
+#~ msgid ""
+#~ "Enter slug for user page, make sure no page or post exists with same slug."
+#~ msgstr ""
+#~ "ユーザーページのスラッグを入力、必ず何ページか同じスラッグで存在しないこと"
+#~ "を確認してください。"
+
+#~ msgid "Show question title"
+#~ msgstr "質問タイトルを表示"
+
+#~ msgid "Disable navigation"
+#~ msgstr "ナビゲーションを無効にします"
+
+#~ msgid "Disable answer navigation."
+#~ msgstr "回答ナビゲーションを無効にします"
+
+#~ msgid "Users"
+#~ msgstr "ユーザー"
+
+#~ msgid "Show users directory"
+#~ msgstr "ユーザーのディレクトリを表示"
+
+#~ msgid "When enabled public can see directory of users."
+#~ msgstr "有効にすると、ユーザーに公開されます。"
+
+#~ msgid "Disable reputation for user"
+#~ msgstr "ユーザーポイントを無効にします"
+
+#~ msgid "Users page avatar size"
+#~ msgstr "ユーザーページアバターサイズ"
+
+#~ msgid "Set user avatar size for users page item."
+#~ msgstr "ユーザーページのアバターサイズを設定"
+
+#~ msgid "Set width of user cover photo."
+#~ msgstr "ユーザーのカバー写真の幅設定"
+
+#~ msgid "Set height of user cover photo."
+#~ msgstr "ユーザーのカバー写真の高さ設定"
+
+#~ msgid "Cover thumb width"
+#~ msgstr "カバーサムネイルの幅"
+
+#~ msgid "Set width of user cover photo thumbnail."
+#~ msgstr "ユーザーのカバー写真サムネイルの幅設定"
+
+#~ msgid "Small cover height"
+#~ msgstr "スモールカバーの高さ"
+
+#~ msgid "Set height of user cover photo thumbnail."
+#~ msgstr "ユーザーのカバー写真サムネイルの幅設定"
+
+#~ msgid "Default rank"
+#~ msgstr "デフォルトランク"
+
+#~ msgid "Assign a default rank for newly registered user."
+#~ msgstr "新しく登録されたユーザーのデフォルトのランクを割り当てます。"
+
+#~ msgid "Enable reCaptcha"
+#~ msgstr "reCaptcha 有効"
+
+#~ msgid "Use this for preventing spam posts."
+#~ msgstr "スパム防止にこれを使用してください"
+
+#~ msgid "Total <b>%d flag</b>"
+#~ msgstr "Total <b>%d flag</b>"
+
+#~ msgid "Trash post"
+#~ msgstr "ゴミ箱の投稿"
+
+#~ msgid "No one flagged this post yet"
+#~ msgstr "この投稿にはまだフラグが設定されていません"
+
+#~ msgid "New reputation"
+#~ msgstr "新しいポイント"
+
+#~ msgid "No related questions found"
+#~ msgstr "関連する質問はありません"
+
+#~ msgid "Set as featured"
+#~ msgstr "フューチャーされます"
+
+#~ msgid "Unset as featured"
+#~ msgstr "フューチャーから除外"
+
+#~ msgid "Follow"
+#~ msgstr "フォロー"
+
+#~ msgid "Unfollow"
+#~ msgstr "フォローしない"
+
+#~ msgid "Please login for adding question to your subscribe"
+#~ msgstr "質問を購読するにはログインしてください"
+
+#~ msgid "votes"
+#~ msgstr "投票"
+
+#~ msgid "Write a meaningful title for the question."
+#~ msgstr "質問のタイトルを書きます。"
+
+#~ msgid "Questions %s"
+#~ msgstr "質問 %s"
+
+#~ msgid "Answers %s"
+#~ msgstr "回答 %s"
+
+#~ msgid "User"
+#~ msgstr "ユーザー"
+
+#~ msgid "Followers"
+#~ msgstr "フォロワー"
+
+#~ msgid "Following"
+#~ msgstr "フォローしている"
+
+#~ msgid "No user found"
+#~ msgstr "ユーザーが見つかりません"
+
+#~ msgid "No followers found"
+#~ msgstr "フォロワーが見つかりません"
+
+#~ msgid "You are not following anyone."
+#~ msgstr "フォロワーがいません"
+
+#~ msgid "%s's activity"
+#~ msgstr "%s's アクティビティ"
+
+#~ msgid "My profile"
+#~ msgstr "My プロフィール"
+
+#~ msgid "%s's profile"
+#~ msgstr "%s's プロフィール"
+
+#~ msgid "My questions"
+#~ msgstr "自分の質問"
+
+#~ msgid "%s's questions"
+#~ msgstr "%s's 質問"
+
+#~ msgid "My answers"
+#~ msgstr "自分の回答"
+
+#~ msgid "%s's answers"
+#~ msgstr "%s's 回答"
+
+#~ msgid "My reputation"
+#~ msgstr "自分のポイント"
+
+#~ msgid "%s's reputation"
+#~ msgstr "%s's ポイント"
+
+#~ msgid "About me"
+#~ msgstr "About me"
+
+#~ msgid "My followers"
+#~ msgstr "My フォロワー"
+
+#~ msgid "%s's followers"
+#~ msgstr "%s's フォロワー"
+
+#~ msgid "My subscriptions"
+#~ msgstr "My 賛同者"
+
+#~ msgid "My notification"
+#~ msgstr "My 通知"
+
+#~ msgid "Cover photo uploaded successfully."
+#~ msgstr "カバー写真がアップロードされました。"
+
+#~ msgid ""
+#~ "There was an error while uploading cover photo, please check your image "
+#~ "and try again."
+#~ msgstr ""
+#~ "カバー写真のアップロードでエラーが発生しました。画像を確認してください。"
+
+#~ msgid "Avatar uploaded successfully."
+#~ msgstr "アバターがアップロードされました。"
+
+#~ msgid "Its too short, it must be minimum %d characters"
+#~ msgstr "%d 桁以上必要です。短すぎます。"
+
+#~ msgid "Flag "
+#~ msgstr "フラグ"
+
+#~ msgid "Comment deleted successfully"
+#~ msgstr "コメントは削除されました"
+
+#~ msgid "ago"
+#~ msgstr "前"
+
+#~ msgid "Please login or register to continue this action."
+#~ msgstr "操作を続けるにはログインするか登録してください。"
+
+#~ msgid "Edit this question"
+#~ msgstr "この質問を編集する"
+
+#~ msgid "Edited on"
+#~ msgstr "Edited on"
+
+#~ msgid "You need to login before doing this action."
+#~ msgstr "この操作をおこなうにはログインする必要があります。"
+
+#~ msgid "You are commenting on a draft post."
+#~ msgstr "あなたは下書き記事にコメントしています。"
+
+#~ msgid "Successfully unfollowed."
+#~ msgstr "フォローが解除されました。"
+
+#~ msgid "Question submitted successfully"
+#~ msgstr "質問が送信されました。"
+
+#~ msgid "Question moved to trash."
+#~ msgstr "質問はゴミ箱へ移動されました。"
+
+#~ msgid "Answer moved to trash."
+#~ msgstr "回答はゴミ箱へ移動されました。"
+
+#~ msgid "Comment content is empty."
+#~ msgstr "コメント欄が空白です。"
+
+#~ msgid "Successfully followed."
+#~ msgstr "フォローしました。"
+
+#~ msgid "You cannot follow yourself."
+#~ msgstr "自身をフォローできません。"
+
+#~ msgid "Notification deleted successfully."
+#~ msgstr "通知は削除されました。"
+
+#~ msgid "Notification is marked as read."
+#~ msgstr "通知は既読とされました。"
+
+#~ msgid "%s is closed, new answer are not accepted."
+#~ msgstr "%s は閉じられました。新しい回答は受け付けておりません。"
+
+#~ msgid "Add image to editor"
+#~ msgstr "エディタに画像を追加します。"
+
+#~ msgid "upload"
+#~ msgstr "アップロード"
+
+#~ msgid "add image from link"
+#~ msgstr "リンクから画像を追加"
+
+#~ msgid "<span>1</span> Participant"
+#~ msgid_plural "<span>%d</span> Participants"
+#~ msgstr[0] "<span>%d</span> 参加者"
+
+#~ msgid "Closed <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Moderate <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "閉鎖 <span class=\"count\">(%s)</span>"
+
+#~ msgid "Search question"
+#~ msgstr "質問を検索"
+
+#~ msgid "answers"
+#~ msgstr "回答"
+
+#~ msgid "%s ans"
+#~ msgid_plural "%s ans"
+#~ msgstr[0] "%s 回答"
+
+#~ msgid "%s Rep."
+#~ msgstr "%s ポイント."
+
+#~ msgid "+%d"
+#~ msgstr "+%d"
+
+#~ msgid "%sAnswered %s"
+#~ msgstr "%sAnswered %s"
+
+#~ msgid "%sCommented %s"
+#~ msgstr "%sCommented %s"
+
+#~ msgid "%sSelected answer %s"
+#~ msgstr "%sSelected answer %s"
+
+#~ msgid "%sUp vote %s %s"
+#~ msgstr "%sUp vote %s %s"
+
+#~ msgid "%sDown vote %s %s"
+#~ msgstr "%s下げ票 %s %s"
+
+#~ msgid "%sBest answer %s"
+#~ msgstr "%sベスト回答 %s"
+
+#~ msgid "Points given to newly registered user."
+#~ msgstr "新しく登録されたユーザーに与えられるポイント。"
+
+#~ msgid "Uploading avatar"
+#~ msgstr "アバターをアップロード"
+
+#~ msgid "Awarded for uploading an profile picture."
+#~ msgstr "プロフィールの写真をアップロードすると授与されます。"
+
+#~ msgid "Completing profile"
+#~ msgstr "プロフィール完了"
+
+#~ msgid "Awarded for completing profile fields."
+#~ msgstr "プロファイルフィールドを完了すると授与されます。"
+
+#~ msgid "When user receive an upvote on question"
+#~ msgstr "ユーザーが質問に投票もらったとき"
+
+#~ msgid "Receive down vote on question"
+#~ msgstr "質問が下げ票されました"
+
+#~ msgid "When user receive an down vote on question"
+#~ msgstr "ユーザーが質問に下げ票をもらったとき"
+
+#~ msgid "Up voted questions"
+#~ msgstr "投票された質問"
+
+#~ msgid "When user upvote others question"
+#~ msgstr "ユーザーが他の質問へ投票したとき"
+
+#~ msgid "Up voted answers"
+#~ msgstr "投票された回答"
+
+#~ msgid "When user upvote others answer"
+#~ msgstr "ユーザーが他の回答へ投票したとき"
+
+#~ msgid "Down voted questions"
+#~ msgstr "下げ票された質問"
+
+#~ msgid "When user down vote others question"
+#~ msgstr "ユーザーが他の質問へ下げ票したとき"
+
+#~ msgid "When user down vote others answers"
+#~ msgstr "ユーザーが他の回答へ下げ票したとき"
+
+#~ msgid "When user user select an answer."
+#~ msgstr "回答をユーザーが選択したとき"
+
+#~ msgid "Install Required Plugins"
+#~ msgstr "必要なプラグインをインストールします。"
+
+#~ msgid "Install Plugins"
+#~ msgstr "プラグインをインストールします。"
+
+#~ msgid "Installing Plugin: %s"
+#~ msgstr "プラグインインストール中: %s"
+
+#~ msgid "Something went wrong with the plugin API."
+#~ msgstr "プラグインAPIで何かが間違っています。"
+
+#~ msgid "AnsPress requires the following plugin: %1$s."
+#~ msgid_plural "AnsPress requires the following plugins: %1$s."
+#~ msgstr[0] "AnsPress には以下のプラグインが必要です: %1$s."
+
+#~ msgid "AnsPress recommends the following plugin: %1$s."
+#~ msgid_plural "AnsPress recommends the following plugins: %1$s."
+#~ msgstr[0] "AnsPress は以下のプラグインを推奨しています: %1$s."
+
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to install the %s "
+#~ "plugin. Contact the administrator of this site for help on getting the "
+#~ "plugin installed."
+#~ msgid_plural ""
+#~ "Sorry, but you do not have the correct permissions to install the %s "
+#~ "plugins. Contact the administrator of this site for help on getting the "
+#~ "plugins installed."
+#~ msgstr[0] ""
+#~ "%s プラグインをインストールするための適切な権限がありません。このサイトの"
+#~ "管理者に連絡してください。"
+
+#~ msgid "The following required plugin is currently inactive: %1$s."
+#~ msgid_plural "The following required plugins are currently inactive: %1$s."
+#~ msgstr[0] "次の必須のプラグインは、現在非アクティブです: %1$s."
+
+#~ msgid "The following recommended plugin is currently inactive: %1$s."
+#~ msgid_plural ""
+#~ "The following recommended plugins are currently inactive: %1$s."
+#~ msgstr[0] "以下の推奨プラグインは現在非アクティブです: %1$s."
+
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to activate the %s "
+#~ "plugin. Contact the administrator of this site for help on getting the "
+#~ "plugin activated."
+#~ msgid_plural ""
+#~ "Sorry, but you do not have the correct permissions to activate the %s "
+#~ "plugins. Contact the administrator of this site for help on getting the "
+#~ "plugins activated."
+#~ msgstr[0] ""
+#~ "%s のプラグインを有効化するための適切な権限がありません。このサイトの管理"
+#~ "者に連絡してください。"
+
+#~ msgid ""
+#~ "The following plugin needs to be updated to its latest version to ensure "
+#~ "maximum compatibility with this theme: %1$s."
+#~ msgid_plural ""
+#~ "The following plugins need to be updated to their latest version to "
+#~ "ensure maximum compatibility with this theme: %1$s."
+#~ msgstr[0] ""
+#~ "以下のプラグインは、このテーマで最大限の互換性を確保するために、最新のバー"
+#~ "ジョンにアップデートする必要があります: %1$s."
+
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to update the %s "
+#~ "plugin. Contact the administrator of this site for help on getting the "
+#~ "plugin updated."
+#~ msgid_plural ""
+#~ "Sorry, but you do not have the correct permissions to update the %s "
+#~ "plugins. Contact the administrator of this site for help on getting the "
+#~ "plugins updated."
+#~ msgstr[0] ""
+#~ "%s のプラグインを更新するための適切な権限がありません。このサイトの管理者"
+#~ "に連絡してください。"
+
+#~ msgid "Begin installing plugin"
+#~ msgid_plural "Begin installing plugins"
+#~ msgstr[0] "プラグインのインストールを開始"
+
+#~ msgid "Begin activating plugin"
+#~ msgid_plural "Begin activating plugins"
+#~ msgstr[0] "プラグインをアクティブ化"
+
+#~ msgid "Return to Required Plugins Installer"
+#~ msgstr "必要なプラグインインストーラに戻ります"
+
+#~ msgid "Plugin activated successfully."
+#~ msgstr "プラグインは有効になりました"
+
+#~ msgid "All plugins installed and activated successfully. %s"
+#~ msgstr "全てのプラグインはインストールされ有効となりました. %s"
+
+#~ msgid ""
+#~ "Question and answer is powered by <a href=\"http://anspress.io\" traget="
+#~ "\"_blank\">AnsPress</a>"
+#~ msgstr ""
+#~ "Q&A is powered by <a href=\"http://anspress.io\" traget=\"_blank"
+#~ "\">AnsPress</a>"
+
+#~ msgid "You and <strong>%s people</strong> subscribed to this question."
+#~ msgstr "あなたと <strong>%s people</strong> はこの質問に賛同しています。"
+
+#~ msgid "<strong>%d people</strong> subscribed to this question."
+#~ msgstr "<strong>%d people</strong> はこの質問に賛同しています。"
+
+#~ msgid "answer accepted"
+#~ msgstr "回答は承認されました"
+
+#~ msgid "Sort by"
+#~ msgstr "ソート by"
+
+#~ msgid ".."
+#~ msgstr ".."
+
+#~ msgid "First name"
+#~ msgstr "名前"
+
+#~ msgid "Your first name"
+#~ msgstr "あなたの名前"
+
+#~ msgid "Last name"
+#~ msgstr "苗字"
+
+#~ msgid "Nickname"
+#~ msgstr "ニックネーム"
+
+#~ msgid "Your nickname"
+#~ msgstr "あなたのニックネーム"
+
+#~ msgid "Display name"
+#~ msgstr "表示する名前"
+
+#~ msgid "Username"
+#~ msgstr "ユーザー名"
+
+#~ msgid "Your username"
+#~ msgstr "あなたのユーザー名"
+
+#~ msgid "This cannot be changed."
+#~ msgstr "これは変更できません"
+
+#~ msgid "Your contact email"
+#~ msgstr "あなたのメールアドレス"
+
+#~ msgid "Password"
+#~ msgstr "パスワード"
+
+#~ msgid "Update your password"
+#~ msgstr "パスワードを更新"
+
+#~ msgid "Page not found or registered."
+#~ msgstr "ページが見つからないか登録されていません。"
+
+#~ msgid "Top %s"
+#~ msgstr "Top %s"
+
+#~ msgid "Upload an avatar"
+#~ msgstr "アバターをアップロード"
+
+#~ msgid "Basic"
+#~ msgstr "基本"
+
+#~ msgid "Upload a cover photo"
+#~ msgstr "カバー写真をアップロード"
+
+#~ msgid "Upload cover"
+#~ msgstr "カバー写真をアップロード"
+
+#~ msgid "Vote for closing"
+#~ msgstr "閉鎖に投票"
+
+#~ msgid "Close "
+#~ msgstr "閉じる"
+
+#~ msgid "Toggle fullscreen"
+#~ msgstr "全画面表示"
+
+#~ msgid "Write"
+#~ msgstr "入力"
+
+#~ msgid "How to answer"
+#~ msgstr "回答方法"
+
+#~ msgid "Please %s or %s to view answers and comments"
+#~ msgstr "回答とコメントを見るために %s or %s してください"
+
+#~ msgid "How to ask"
+#~ msgstr "質問方法"
+
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "あなたのコメントは管理者の承認待ちです。"
+
+#~ msgid "Comment navigation"
+#~ msgstr "コメントナビ"
+
+#~ msgid "&larr; Older Comments"
+#~ msgstr "&larr; より古いコメント"
+
+#~ msgid "Newer Comments &rarr;"
+#~ msgstr "新しいコメント &rarr;"
+
+#~ msgid "No question asked yet!, be the first to ask a question."
+#~ msgstr "まだ質問はありません。最初の質問をしてください。"
+
+#~ msgid "Adding question to your favorites"
+#~ msgstr "質問をお気に入りに追加します"
+
+#~ msgid "Requesting for closing this question"
+#~ msgstr "この質問を閉じる要求を送信中"
+
+#~ msgid "Submitting request"
+#~ msgstr "要求を提出中"
+
+#~ msgid "Loading comment form"
+#~ msgstr "コメントフォームをロード中"
+
+#~ msgid "Sending your question"
+#~ msgstr "質問を送信中"
+
+#~ msgid "Sending your answer"
+#~ msgstr "回答を送信中"
+
+#~ msgid "Deleting comment"
+#~ msgstr "コメントを削除中"
+
+#~ msgid "Updating comment"
+#~ msgstr "コメントを更新中"
+
+#~ msgid "Saving labels"
+#~ msgstr "ラベルを保存中"
+
+#~ msgid "Loading suggestions"
+#~ msgstr "提案をロード中"
+
+#~ msgid "Uploading cover"
+#~ msgstr "カバー写真をアップロードしています"
+
+#~ msgid "Saving profile"
+#~ msgstr "プロフィールを保存中"
+
+#~ msgid "Sending message"
+#~ msgstr "メッセージ送信中"
+
+#~ msgid "Loading conversation"
+#~ msgstr "会話をロード中"
+
+#~ msgid "Loading new message form"
+#~ msgstr "新しいメッセージフォームをロード中"
+
+#~ msgid "Searching conversations"
+#~ msgstr "会話を検索中"
+
+#~ msgid "Loading message form"
+#~ msgstr "メッセージフォームをロード中"
+
+#~ msgid "Updating message"
+#~ msgstr "メッセージを更新中"
+
+#~ msgid "Deleting message"
+#~ msgstr "メッセージを削除中"
+
+#~ msgid "AP Before"
+#~ msgstr "AP Before"
+
+#~ msgid "AP Lists Top"
+#~ msgstr "AP Lists Top"
+
+#~ msgid "AP Sidebar"
+#~ msgstr "AP Sidebar"
+
+#~ msgid "AP User"
+#~ msgstr "AP User"
+
+#~ msgid "Sign up"
+#~ msgstr "サインアップ"
+
+#~ msgid "Featured post"
+#~ msgstr "注目の投稿"
+
+#~ msgid "Leave a reply"
+#~ msgstr "返信"
+
+#~ msgid "1 Reply"
+#~ msgstr "1 返信"
+
+#~ msgid "% Replies"
+#~ msgstr "% 返信"
+
+#~ msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "<span class=\"meta-nav\">&rarr;</span> の購読を継続"
+
+#~ msgid "Pages:"
+#~ msgstr "ページ:"
+
+#~ msgid "About %s"
+#~ msgstr "About %s"
+
+#~ msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "%s <span class=\"meta-nav\">&rarr;</span> の投稿を全て見る"
+
+#~ msgid "Stats"
+#~ msgstr "統計"
+
+#~ msgid "%d questions, %d solved"
+#~ msgstr "%d questions, %d solved"
+
+#~ msgid "Member for %s"
+#~ msgstr "%s のメンバー"
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#~ msgid "%d votes received"
+#~ msgstr "%d 投票獲得"
+
+#~ msgid "up"
+#~ msgstr "up"
+
+#~ msgid "down"
+#~ msgstr "down"
+
+#~ msgid "%d votes casted"
+#~ msgstr "%d 票獲得"
+
+#~ msgid "Top Answers"
+#~ msgstr "Top 回答"
+
+#~ msgid "More answers by %s"
+#~ msgstr "%s のほかの回答"
+
+#~ msgid "view"
+#~ msgstr "閲覧"
+
+#~ msgid "More questions by %s"
+#~ msgstr "%s のほかの質問"
+
+#~ msgid "No reputation earned yet."
+#~ msgstr "まだポイントがありません。"
+
+#~ msgid "Not following any question yet!"
+#~ msgstr "まだ質問をフォローしていません"
+
+#~ msgid "%d Followers, %d following"
+#~ msgstr "%d フォロワー, %d フォロー"
+
+#~ msgid "%d Followers"
+#~ msgstr "%d フォロワー"
+
+#~ msgid "%d Following"
+#~ msgstr "%d フォロー"
+
+#~ msgid "%d Best"
+#~ msgstr "%d ベスト回答"
+
+#~ msgid "1 answer"
+#~ msgid_plural "%d answers"
+#~ msgstr[0] "%d 回答"
+
+#~ msgid "1 vote"
+#~ msgid_plural "%d votes"
+#~ msgstr[0] "%d 投票"
+
+#~ msgid "View all followers &rarr;"
+#~ msgstr "全てのフォロワーの閲覧数 &rarr;"
+
+#~ msgid "No followers yet"
+#~ msgstr "フォロワーがまだいません"
+
+#~ msgid "This widget can only be used in user page."
+#~ msgstr "このウィジェットは、ユーザページでのみ使用することができます。"
+
+#~ msgid "Avatar size:"
+#~ msgstr "アバターサイズ:"
+
+#~ msgid "No options"
+#~ msgstr "No options"
+
+#~ msgid "1 follower"
+#~ msgid_plural "%d followers"
+#~ msgstr[0] "%d フォロワー"
+
+#~ msgid "Avatar:"
+#~ msgstr "アバター:"
+
+#~ msgid "Show"
+#~ msgstr "表示"
+
+#~ msgid "Min. Points"
+#~ msgstr "Min. Points"
+
+#~ msgid "Multiple"
+#~ msgstr "複数の"
+
+#~ msgid "%sAnswered about %s ago%s"
+#~ msgstr "%sAnswered about %s 前%s"
+
+#~ msgid "Hide"
+#~ msgstr "非表示"
+
+#~ msgid "Show your love by showing link to AnsPress project site."
+#~ msgstr ""
+#~ "AnsPressプロジェクトのサイトへのリンクを示すことによって、あなたの敬意を示"
+#~ "します。"
+
+#~ msgid "Subbscribe and and stats widget will shown in question page."
+#~ msgstr "既読と統計は、質問ページのウィジェットに表示されます。"
+
+#~ msgid "%s flagged this post %s ago"
+#~ msgstr "%s flagged this post %s 前"
+
+#~ msgid ""
+#~ "We found similar questions that have already been asked, click to read "
+#~ "them. Avoid creating duplicate questions, it will be deleted."
+#~ msgstr ""
+#~ "同様の質問を見つけました。重複した質問を作成しないように、それは削除されま"
+#~ "す。"
+
+#~ msgid "%s Ago"
+#~ msgstr "%s 前"
+
+#~ msgid "Subscription"
+#~ msgstr "賛同"
+
+#~ msgid "%s %s about %s ago"
+#~ msgstr "%s %s about %s 前"
+
+#~ msgid " %s %s %s ago"
+#~ msgstr " %s %s %s 前"
+
+#~ msgid "New question <b>##post_title</b>"
+#~ msgstr "新しい質問 <b>##post_title</b>"
+
+#~ msgid "New answer on <b>##post_title</b>"
+#~ msgstr "<b>##post_title</b>への新しい回答"
+
+#~ msgid "Your question <b>##post_title</b> has been edited"
+#~ msgstr "あなたの質問 <b>##post_title</b> は編集されました"
+
+#~ msgid "Your answer on <b>##post_title</b> has been edited"
+#~ msgstr "あなたの <b>##post_title</b> に対する回答は編集されました"
+
+#~ msgid "New comment on question <b>##post_title</b>"
+#~ msgstr "<b>##post_title</b> への新しいコメントがあります"
+
+#~ msgid "New comment on answer <b>##post_title</b>"
+#~ msgstr "<b>##post_title</b> への回答に新しいコメントがあります"
+
+#~ msgid "<b>%s</b> started following you"
+#~ msgstr "<b>%s</b> はあなたをフォローし始めました"
+
+#~ msgid "%s up voted on your post <b>##post_title</b>"
+#~ msgstr "%s は <b>##post_title</b> に投票しました"
+
+#~ msgid "You have received <b>##reputation</b> reputation points"
+#~ msgstr "<b>##reputation</b> ポイントを受け取りました"
+
+#~ msgid "%s ago%s"
+#~ msgstr "%s 前%s"
+
+#~ msgid " ago"
+#~ msgstr " 前"
+
+#~ msgid "Follow question"
+#~ msgstr "質問をフォローする"
+
+#~ msgid "Unfollow question"
+#~ msgstr "質問へのフォローを解除"
+
+#~ msgid "More"
+#~ msgstr "More"
+
+#~ msgid "You already flagged this post"
+#~ msgstr "あなたは既にこの投稿にフラグを立てています"
+
+#~ msgid "Your close request has been removed"
+#~ msgstr "あなたの閉鎖要求が削除されました"
+
+#~ msgid "Your close request has been sent"
+#~ msgstr "閉鎖要求が送信されました"
+
+#~ msgid "Something went wrong"
+#~ msgstr "何かが間違っています"
+
+#~ msgid "Please login for requesting closing this question."
+#~ msgstr "この質問を閉じる要求をするにはログインしてください。"
+
+#~ msgid "Last seen %s ago"
+#~ msgstr "最終閲覧 %s 前"
+
+#~ msgid "Ago"
+#~ msgstr "前"
+
+#~ msgid "Shows list of question shorted by option"
+#~ msgstr "質問リストはオプションで短縮できます"
+
+#~ msgid "Display current logged in users detail and links."
+#~ msgstr "現在のログインユーザーの詳細とリンクを表示"
+
+#~ msgid ""
+#~ "Please update all AnsPress extensions before activating. <a target="
+#~ "\"_blank\" href=\"http://anspress.io/questions/ask/\">Ask for help</a>"
+#~ msgstr ""
+#~ "アクティブにする前に、すべてのAnsPress拡張を更新してください。 <a target="
+#~ "\"_blank\" href=\"http://anspress.io/questions/ask/\">Ask for help</a>"
+
+#~ msgid "Please update all AnsPress extensions before activating."
+#~ msgstr "アクティブにする前に、すべてのAnsPress拡張を更新してください。"
+
+#~ msgid "AP about user"
+#~ msgstr "AP about user"
+
+#~ msgid "Widgets in this area will be shown in about user page."
+#~ msgstr ""
+#~ "このエリアのウィジェットは、ユーザーについてのページに表示されます。"
